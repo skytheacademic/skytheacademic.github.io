@@ -13,8 +13,8 @@ I am a third-year Ph.D. student at Purdue University, studying international rel
 
 My research also encompasses other non-state security actors, such as private military and security contractors (PMSCs). In my research on the UN use of private security contractors (PSCs), for example, I first construct a novel database to expand our descriptive understanding of what we know about how the UN uses PSCs. Next, I built the concept of double delegation of authority, which borrows concepts and structures from the sociology literature on symbols, the principal-agent literature on delegation costs, and the sovereignty literature on authority. My most recent research on PMSCs focuses on non-traditional actors, such as Russia's use of the Wagner group, which I am working on with Matthew Ellis.
 
-
-
+Short Biography
+======
 Before starting my Ph.D. program at Purdue, I received my BA from Purdue in 2019. I grew up in Indianapolis, IN and started my undergraduate studies in the Fall of 2015.
 
 
