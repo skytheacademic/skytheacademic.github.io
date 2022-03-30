@@ -1,5 +1,5 @@
 ---
-permalink:
+permalink: /
 title: "Sky Kunkel - Purdue University Personal Website"
 excerpt: "About me"
 author_profile: true
