@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink:
 title: "Sky Kunkel - Purdue University Personal Website"
 excerpt: "About me"
 author_profile: true
@@ -11,11 +11,11 @@ About
 ======
 I am a third-year Ph.D. student at Purdue University, studying international relations with a minor in political methodology. My research broadly focuses on the intersection of security and non-state actors. My research on security often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, my dissertation, tentatively titled, *The Local Effects of UN Peacekeeping*, examines the effects peacekeepers have on saving civilian lives and preventing violence against civilians with advanced quantitative methods at the most granular level ever used in the peacekeeping effectiveness literature.
 
-My research also encompasses other non-state security actors, such as private military and security contractors (PMSCs). In my research on the UN use of private security contractors (PSCs), for example, I first construct a novel database to expand our descriptive understanding of what we know about how the UN uses PSCs. Next, I built the concept of double delegation of authority, which borrows concepts and structures from the sociology literature on symbols, the principal-agent literature on delegation costs, and the sovereignty literature on authority. My most recent research on PMSCs focuses on non-traditional actors, such as Russia's use of the Wagner group, which I am working on with Matthew Ellis.
+My research also encompasses other non-state security actors, such as private military and security contractors (PMSCs). In my research on the UN use of private security contractors (PSCs), for example, I first construct a novel database to expand our descriptive understanding of what we know about how the UN uses PSCs. Next, I built the concept of double delegation of authority, which borrows concepts and structures from the sociology literature on symbols, the principal-agent literature on delegation costs, and the sovereignty literature on authority. My most recent research on PMSCs focuses on non-traditional actors, such as Russia's use of the Wagner group, which I am working on with [Matthew Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/).
 
 Short Biography
 ======
-Before starting my Ph.D. program at Purdue, I received my BA from Purdue in 2019. I grew up in Indianapolis, IN and started my undergraduate studies in the Fall of 2015.
+Before starting my Ph.D. program at Purdue, I received my BA from Purdue in 2019. I grew up in Indianapolis, IN and started my undergraduate studies in the Fall of 2015. I initially started grad school to advance my political science knowledge to a Master's level; however, during my time doing research with incredible professors, I discovered my love of all things research and teaching, leading me to pursue academia. I am a first-gen, queer scholar seeking to advance our knowledge about non-state actors and security, while also empowering and
 
 
 A data-driven personal website
