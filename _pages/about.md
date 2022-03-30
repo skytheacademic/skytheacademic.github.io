@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sky Kunkel - Purdue University Personal Website"
+title: "Sky Kunkel - Personal Website"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -9,20 +9,16 @@ redirect_from:
 ---
 About
 ======
-I am a third-year Ph.D. student at Purdue University, studying international relations with a minor in political methodology. My research broadly focuses on the intersection of security and non-state actors. My research on security often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, my dissertation, tentatively titled, *The Local Effects of UN Peacekeeping*, examines the effects peacekeepers have on saving civilian lives and preventing violence against civilians with advanced quantitative methods at the most granular level ever used in the peacekeeping effectiveness literature.
+I am a third-year Ph.D. student at Purdue University, studying international relations with a minor in political methodology. My research broadly focuses on the intersection of security and non-state actors. My security research often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, my dissertation, tentatively titled, *The Local Effects of UN Peacekeeping*, examines the effects peacekeepers have on saving civilian lives and preventing violence against civilians with advanced quantitative methods at the most granular level ever used in the peacekeeping effectiveness literature.
 
-My research also encompasses other non-state security actors, such as private military and security contractors (PMSCs). In my research on the UN use of private security contractors (PSCs), for example, I first construct a novel database to expand our descriptive understanding of what we know about how the UN uses PSCs. Next, I built the concept of double delegation of authority, which borrows concepts and structures from the sociology literature on symbols, the principal-agent literature on delegation costs, and the sovereignty literature on authority. My most recent research on PMSCs focuses on non-traditional actors, such as Russia's use of the Wagner group, which I am working on with [Matthew Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/).
+My research also encompasses other non-state security actors, such as private military and security contractors (PMSCs). In my research on the UN's use of private security contractors (PSCs), for example, I first construct a novel database to expand our descriptive understanding of what we know about how the UN uses PSCs. Next, I built the concept of double delegation of authority, which borrows ideas and structures from the sociology literature on symbols, the principal-agent literature on delegation costs, and the sovereignty literature on authority. My most recent research on PMSCs focuses on non-traditional actors, such as Russia's use of the Wagner group, which I am working on with [Matthew Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/).
 
 Short Biography
 ======
-Before starting my Ph.D. program at Purdue, I received my BA from Purdue in 2019. I grew up in Indianapolis, IN and started my undergraduate studies in the Fall of 2015. I initially started grad school to advance my political science knowledge to a Master's level; however, during my time doing research with incredible professors, I discovered my love of all things research and teaching, leading me to pursue academia. I am a first-gen, queer scholar seeking to advance our knowledge about non-state actors and security, while also empowering and
+Before starting my Ph.D. program at Purdue, I received my BA from Purdue in 2019. I grew up in Indianapolis, IN, and started my undergraduate studies in 2015. I initially started grad school to advance my political science knowledge to a Master's level; however, during my time doing research with incredible professors, I discovered my love of all things research and teaching, leading me to pursue academia. I am a first-gen queer scholar seeking to improve the lives and experiences of those marginalized by academia and the broader world, especially minority and first-gen grad students who often face barriers invisible to others but present nonetheless.
 
+If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page, or schedule a meeting with me [here](https://koalendar.com/e/meet-with-sky/).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
 Site-wide configuration
 ------
