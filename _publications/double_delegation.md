@@ -5,7 +5,7 @@ permalink: research/double_delegation
 excerpt: 'How extensive is the UN’s use of private security contractors (PSCs), and does that use have
 implications for the UN’s authority? This paper constructs a novel database on the UN use of PSCs and
 develops the theory of the Double Delegation of Authority.'
-date: 2022-05-04
+date: 
 venue:
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Kunkel, Sky. (nd). &quot;Double Delegation: An Investigation of the UN Use of Private Security Contractors.&quot;'
