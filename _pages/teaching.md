@@ -20,3 +20,6 @@ Various reviews from anonymous course reviews regarding this course:
 *POL 237 - Modern Weapons and International Relations*, 2019 (F), 2020 (Sp, Su, F), 2021 (Sp, F)
 
 *POL 130 - Introduction to International Relations*, 2022 (Sp)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wKZOaYvHC5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
