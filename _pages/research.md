@@ -18,26 +18,17 @@ author_profile: true
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://adamkunkel.weebly.com/uploads/1/3/7/6/137673465/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-*Divide to Rule: Coalition Bargaining and the Architecture of Government* (book manuscript).
+"Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace?"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://adamkunkel.weebly.com/uploads/1/3/7/6/137673465/conflict_grids__1_.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Conscription Systems, Political Survival, and Battlefield Deaths" (with Douglas B. Atkinson, Kevin Fahey, and René Lindstädt). Revise and resubmit at the *American Political Science Review*.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Atkinson-et-al-Conscription.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Atkinson-et-al-Conscription-Appendix.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [appendix]</a> </span>
+"Does Peace Remain After the Peacekeepers Leave?" (with Douglas B. Atkinson and Zach Warner).
 
-"Conditional Relationships in Dynamic Models." *Under review*.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Conditional-Relationships.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Conditional-Relationships-Appendix.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [appendix]</a></span>
+"Peacekeeping Bases and Peace: The Effects of Visual Deterrence"
 
-"Divide to Rule: Deconcentration and Coalition Bargaining." *Under review*.
+"The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with Matthew Kyle Ellis)
+
+"Peacekeeping and Vulnerable Populations - How UN Peacekeepers Affect Local's Perceptions of Migrants" (with Catalina Vega-Méndez)
+
+<!-- "Divide to Rule: Deconcentration and Coalition Bargaining." *Under review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule-Appendix.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [appendix]</a> </span>
-
-"Perceptions of Uncertainty" (with Michael DeCrescenzo and Benjamin Toff). Two experiments fielded, and another experiment in nationally-representative survey to be fielded in 2022.
-
-"What They Say, or How They Say It? Content and Affect in Election Observation Reports" (with J. Andrew Harris and Waleed Hashmi).
-
-"The Loser's Playbook" (with J. Andrew Harris and Michelle Brown).
-
-"Does Peace Remain After the Peacekeepers Leave?" (with Adam Kunkel and Douglas B. Atkinson).
-
-"simic: Simulating and Measuring Ideological Congruence" (with Kevin Fahey and René Lindstädt). R package in beta testing.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule-Appendix.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [appendix]</a> </span> -->
