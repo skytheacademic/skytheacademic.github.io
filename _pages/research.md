@@ -5,10 +5,6 @@ permalink: research/
 author_profile: true
 ---
 
----
-
----
-
 ### Publications
 
 "Affluence and Congruence: Unequal Representation Around the World" (with Noam Lupu). 2022. *Journal of Politics* 84 (1): 276-290.
