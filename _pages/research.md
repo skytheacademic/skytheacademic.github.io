@@ -14,6 +14,10 @@ author_profile: true
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://www.washingtonpost.com/politics/2021/06/15/voters-around-world-think-their-governments-are-out-touch-they-have-point/'><i class='fas fa-bullhorn'></i> [Washington Post coverage]</a></span> -->
 
 ### Research in progress
+
+"Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://adamkunkel.weebly.com/uploads/1/3/7/6/137673465/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+
 *Divide to Rule: Coalition Bargaining and the Architecture of Government* (book manuscript).
 
 "Conscription Systems, Political Survival, and Battlefield Deaths" (with Douglas B. Atkinson, Kevin Fahey, and René Lindstädt). Revise and resubmit at the *American Political Science Review*.
