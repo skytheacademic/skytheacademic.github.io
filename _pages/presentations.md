@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: "Academic & Conference Presentations"
 permalink: presentations/
 author_profile: true
