@@ -11,7 +11,7 @@ Conference Presentations
 ======
 * Double Delegation:  An Exploration and Construction of the UN Private Security Contractor Database *Spring 2022*
 - International Studies Association Annual Convention 2022
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation_presentation.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/isa_2022_presentation.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/isa_2022_program.pdf"}}'><i class='fas fa-file-pdf'></i> [ISA Program]</a></span>
 
 * A Tale of Two Countries: Norway, Denmark, and Renewable Energy Politics *Fall 2018*
