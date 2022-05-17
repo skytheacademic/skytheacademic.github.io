@@ -21,13 +21,13 @@ author_profile: true
 "Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace?"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/conflict_grids.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Does Peace Remain After the Peacekeepers Leave?" (with Douglas B. Atkinson and Zach Warner).
+"Does Peace Remain After the Peacekeepers Leave?" (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
 
 "Peacekeeping Bases and Peace: The Effects of Visual Deterrence"
 
-"The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with Matthew Kyle Ellis)
+"The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
 
-"Peacekeeping and Vulnerable Populations - How UN Peacekeepers Affect Local's Perceptions of Migrants" (with Catalina Vega-Méndez)
+"Peacekeeping and Vulnerable Populations - How UN Peacekeepers Affect Local's Perceptions of Migrants" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-9947a01b9/))
 
 <!-- "Divide to Rule: Deconcentration and Coalition Bargaining." *Under review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
