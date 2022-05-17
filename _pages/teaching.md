@@ -11,7 +11,7 @@ author_profile: true
 
 See the bottom of this page for one of my many videos for POL-237.
 
-Various reviews from anonymous course reviews regarding this course:
+Anonymous reviews from students regarding my teaching:
 
 * "Great communication and fair, clear feedback on assignments"
 * "Loved this class, Prof. Kunkel was a great instructor, I especially loved the format of the class and transparency from the start about what to expect. I hope he continues to lay out and stick to a schedule in the syllabus so well, it made it very easy to succeed as a student"
