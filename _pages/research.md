@@ -16,10 +16,10 @@ author_profile: true
 ### Research in progress
 
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://adamkunkel.weebly.com/uploads/1/3/7/6/137673465/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace?"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://adamkunkel.weebly.com/uploads/1/3/7/6/137673465/conflict_grids__1_.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/conflict_grids.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "Does Peace Remain After the Peacekeepers Leave?" (with Douglas B. Atkinson and Zach Warner).
 
