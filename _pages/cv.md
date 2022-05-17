@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-<embed src="{{ github.com }}/kunkel54/skytheacademic.github.io/raw/master/files/cv_kunkel.pdf" width="600" height="700" type='application/pdf'>
+<embed src="{{ site.baseurl }}/files/cv_kunkel.pdf" width="600" height="700" type='application/pdf'>
 
 
 
