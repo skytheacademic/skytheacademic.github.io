@@ -21,6 +21,7 @@ author_profile: true
 ### Academic Presentations
 
 * How to Research and Use the Purdue Libraries: Workshop and Presentation. *Fall 2021*
+  * Purdue Political Science Graduate Student Welcome Week
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/libraries_presentation.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
 
 
