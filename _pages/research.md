@@ -27,7 +27,7 @@ author_profile: true
 
 "The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
 
-"Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-9947a01b9/))
+"Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez]https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
 
 <!-- "Divide to Rule: Deconcentration and Coalition Bargaining." *Under review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
