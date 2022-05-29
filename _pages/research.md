@@ -23,7 +23,7 @@ author_profile: true
 
 "Does Peace Remain After the Peacekeepers Leave?" (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
 
-"Peacekeeping Bases and Peace: The Effects of Visual Deterrence"
+"Pacifying through Place: The Role of Visual Deterrence in Keeping the Peace"
 
 "The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
 
