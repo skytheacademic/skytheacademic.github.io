@@ -9,6 +9,12 @@ author_profile: true
 
 ### Conference Presentations
 
+* Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace? *Fall 2022*
+    * American Political Science Association Annual Convention 2022
+
+* What Happens After Peacekeepers Leave? *Summer 2022*
+    * Political Methodology Annual Convention 2022
+
 * Double Delegation:  An Exploration and Construction of the UN Private Security Contractor Database. *Spring 2022*
     * International Studies Association Annual Convention 2022
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/isa_2022_presentation.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
