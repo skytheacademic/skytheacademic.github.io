@@ -9,11 +9,16 @@ author_profile: true
 
 ### Conference Presentations
 
+* The Wagner Group and Violence: Russia’s Re-Entry Into Cold War African Politics *Fall 2022*
+    * Peace Science Society Annual Convention 2022
+
 * Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace? *Fall 2022*
     * American Political Science Association Annual Convention 2022
 
 * What Happens After Peacekeepers Leave? *Summer 2022*
     * Political Methodology Annual Convention 2022
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/polmeth_2022_presentation.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/polmeth_2022_program.pdf"}}'><i class='fas fa-file-pdf'></i> [PolMeth Program]</a></span>
 
 * Double Delegation:  An Exploration and Construction of the UN Private Security Contractor Database. *Spring 2022*
     * International Studies Association Annual Convention 2022

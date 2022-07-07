@@ -29,6 +29,10 @@ author_profile: true
 
 "Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
 
+"What’s in a Name? Implications of Overusing 'Sub-Saharan Africa'" (with [Mitushi Mukherjee](https://www.linkedin.com/in/mitushi04/))
+
+"Alexander or Ozymandias?: Russia’s PMC Driven Foreign Policy in Africa" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
+
 <!-- "Divide to Rule: Deconcentration and Coalition Bargaining." *Under review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "/download/Warner-Divide-to-Rule-Appendix.pdf" | relative_url }}'><i class='fas fa-file-pdf'></i> [appendix]</a> </span> -->
