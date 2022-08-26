@@ -9,7 +9,7 @@ author_profile: true
 
 ### Selected Conference Presentation - PolMeth 2022
 * Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness
-<embed src="{{ site.baseurl }}/files/polmeth_2022_presentation.pdf" width="700" height="600" type='application/pdf'>
+<embed src="{{ site.baseurl }}/files/polmeth_2022_presentation.pdf" width="900" height="1200" type='application/pdf'>
 
 
 ### Conference Presentations
