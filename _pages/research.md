@@ -18,14 +18,14 @@ author_profile: true
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Conflict Grids and Peacekeeping: When and Where Do Peacekeepers Keep the Peace?"
+"Conflict Grids and Peacekeeping: Which Peacekeepers Keep the Peace?"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/conflict_grids.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Does Peace Remain After the Peacekeepers Leave?" (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
+"Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness" (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
-"The Wagner Group and Violence: Russia's Re-Entry Into Cold War African Politics" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
+"Violence as a Condition: The CAR and Wagner's Tragic Partnership" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
 
 "Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
 
