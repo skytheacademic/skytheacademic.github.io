@@ -9,13 +9,15 @@ author_profile: true
 
 ### Selected Conference Presentation - PolMeth 2022
 * Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness
-<embed src="{{ site.baseurl }}/files/polmeth_2022_presentation.pdf" width="900" height="1200" type='application/pdf'>
+<embed src="{{ site.baseurl }}/files/polmeth_2022_presentation.pdf" width="1200" height="900" type='application/pdf'>
 
 
 ### Conference Presentations
 
 * Violence as a Condition: The CAR and Wagner's Tragic Partnership *Fall 2022*
     * Peace Science Society Annual Convention 2022
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/pssi_2022_poster.pdf"}}'><i class='fas fa-file-pdf'></i> [Archived Presentation]</a></span>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/pssi_2022_program.pdf"}}'><i class='fas fa-file-pdf'></i> [PSSI Program]</a></span>
 
 * Alexander or Ozymandias?: Russia’s PMC Driven Foreign Policy in Africa *Fall 2022*
     * International Studies Association Northeast Annual Convention 2022
