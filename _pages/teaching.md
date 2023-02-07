@@ -21,9 +21,10 @@ Anonymous reviews from students regarding my teaching:
 ### Teaching Assistant
 *POL 501 - Political Science Methodology*, 2022 (F)
 
-*POL 605 - Advanced Causal Inference*, 2022 (Sp)
+*POL 605 - Advanced Causal Inference*
+  2022 (Sp), 2023 (Sp)
 
-*POL 237 - Modern Weapons and International Relations*, 2019 (F), 2020 (Sp, Su, F), 2021 (Sp, F)
+*POL 237 - Modern Weapons and International Relations*, 2019 (F), 2020 (Sp, Su, F), 2021 (Sp, F), 2023 (Sp.)
 
 *POL 130 - Introduction to International Relations*, 2022 (Sp, F)
 
