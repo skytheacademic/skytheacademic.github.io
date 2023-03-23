@@ -18,6 +18,8 @@ author_profile: true
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
+"Violence as a Condition: the Threat Posed by Quasi-PMCs" *Under Review* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
@@ -25,8 +27,6 @@ author_profile: true
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
-
-"Violence as a Condition: the Threat Posed by Quasi-PMCs" (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/))
 
 "Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
 
