@@ -23,7 +23,7 @@ As a passionate advocate for diversity, equity, and inclusion in academia, I am 
 
 Moreover, my research agenda includes bringing issues to the forefront of political science, such as the dangers of using the phrase "sub-Saharan Africa" and its racist origins. I am also organizing a workshop for Peace Science to provide early-career scholars who identify as LGBTQ+ with mentorship, guidance, and a network of experienced academics. As an educator, I promote DEI in the classroom by taking an inclusive approach to designing and delivering course materials, ensuring that everyone has the opportunity to engage fully with the course material and succeed academically. Ultimately, I aim to build a diverse, equitable, and inclusive academic community that fosters excellence in scholarship, teaching, and service.
 
-Click [here](https://www.skytheacademic.com/) for my full DEI statement.
+Click [here](https://www.skytheacademic.com/files/DEI_Statement.pdf) for my full DEI statement.
 
 Short Biography
 ======
