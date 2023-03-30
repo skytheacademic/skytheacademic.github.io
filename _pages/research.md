@@ -20,11 +20,11 @@ author_profile: true
 
 "Violence as a Condition: the Threat Posed by Quasi-PMCs" *Under Review* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
+"Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness" *Under Review* (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-
-"Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness" (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
