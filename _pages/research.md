@@ -28,7 +28,7 @@ author_profile: true
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
-"Peacekeeping and Public Opinion - How UN Peacekeepers Affect Violence Perception" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
+"Beyond Negative Peace: Do UN Peacekeepers decrease security and trust concerns?" (with [Catalina Vega-Méndez](https://www.linkedin.com/in/catalina-vega-mendez-162196237/))
 
 "What’s in a Name? Implications of Overusing 'Sub-Saharan Africa'" (with [Mitushi Mukherjee](https://www.linkedin.com/in/mitushi04/))
 
