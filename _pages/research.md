@@ -13,6 +13,12 @@ author_profile: true
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBNBEU'><i class='fas fa-code-branch'></i> [replication archive]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://www.washingtonpost.com/politics/2021/06/15/voters-around-world-think-their-governments-are-out-touch-they-have-point/'><i class='fas fa-bullhorn'></i> [Washington Post coverage]</a></span> -->
 
+### Job Market Paper
+
+"Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360779049_Who_Keeps_the_Peace_Gendered_Effects_in_UN_Peacekeeping"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+
+
 ### Research in progress
 
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
@@ -22,9 +28,6 @@ author_profile: true
 
 "Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness" *Under Review* (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/365437993_Does_Peace_Remain_After_the_Peacekeepers_Leave_An_Exploration_of_Peacekeeper_InEffectiveness"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-
-"Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360779049_Who_Keeps_the_Peace_Gendered_Effects_in_UN_Peacekeeping"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
