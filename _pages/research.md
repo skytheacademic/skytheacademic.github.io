@@ -16,15 +16,15 @@ author_profile: true
 ### Research in progress
 
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database" *Under Review*.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360778936_Double_Delegation_An_Investigation_of_the_UN_Use_of_Private_Security_Contractors"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Violence as a Condition: the Threat Posed by Quasi-PMCs" *Under Review* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+"Violence as a Condition: the Threat Posed by Quasi-PMCs" *Under Review* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://osf.io/y23s6/"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness" *Under Review* (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/365437993_Does_Peace_Remain_After_the_Peacekeepers_Leave_An_Exploration_of_Peacekeeper_InEffectiveness"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360779049_Who_Keeps_the_Peace_Gendered_Effects_in_UN_Peacekeeping"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
