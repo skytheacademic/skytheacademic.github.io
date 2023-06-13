@@ -13,13 +13,11 @@ author_profile: true
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBNBEU'><i class='fas fa-code-branch'></i> [replication archive]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://www.washingtonpost.com/politics/2021/06/15/voters-around-world-think-their-governments-are-out-touch-they-have-point/'><i class='fas fa-bullhorn'></i> [Washington Post coverage]</a></span> -->
 
-### Job Market Paper
+
+### Working Papers
 
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360779049_Who_Keeps_the_Peace_Gendered_Effects_in_UN_Peacekeeping"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-
-
-### Research in progress
 
 "Violence as a Condition: the Threat Posed by Quasi-PMCs" *Under Review* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://osf.io/y23s6/"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
@@ -28,6 +26,8 @@ author_profile: true
 
 "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database."
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/360778936_Double_Delegation_An_Investigation_of_the_UN_Use_of_Private_Security_Contractors"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+
+### Works in Progress - Available Upon Request
 
 "All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
