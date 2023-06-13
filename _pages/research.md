@@ -16,9 +16,9 @@ author_profile: true
 
 ### Under Review
 
-"Violence as a Condition: the Threat Posed by Quasi-PMCs." *Under Review.* (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://osf.io/y23s6/"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+"Violence as a Condition: the Threat Posed by Quasi-PMCs." (with [Matthew Kyle Ellis](https://www.linkedin.com/in/matt-ellis-7b187492/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://osf.io/y23s6/"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
-"Does Peace Remain After the Peacekeepers Leave? An Examination of Peacekeeper (In)Effectiveness." *Under Review.* (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
+"Does Peace Remain After the Peacekeepers Leave? An Examination of Peacekeeper (In)Effectiveness." (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/) and [Zach Warner](https://zachwarner.net/)).
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.researchgate.net/publication/365437993_Does_Peace_Remain_After_the_Peacekeepers_Leave_An_Exploration_of_Peacekeeper_InEffectiveness"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 ### Working Papers
