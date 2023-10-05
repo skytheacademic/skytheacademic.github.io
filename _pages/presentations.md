@@ -10,9 +10,9 @@ author_profile: true
 ### Selected Conference Presentation - PolMeth 2022
 * Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness
 
-* See [here](https://www.skytheacademic.com/files/polmeth_2022_poster.pdf) for PDF version.
+* See [here](https://www.skytheacademic.com/files/polmeth_2022_presentation.pdf) for PDF version.
 
-![](https://www.skytheacademic.com/files/polmeth_2022_poster.pdf)
+![](https://www.skytheacademic.com/files/polmeth_2022_presentation.jpg)
 
 ### Selected Conference Presentation - Peace Science 2022
 * Violence as a Condition: The CAR and Wagner's Tragic Partnership
