@@ -9,6 +9,10 @@ author_profile: true
 
 ### Selected Conference Presentation - PolMeth 2022
 * Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness
+
+![](https://i2.wp.com/ethos.itu.dk/wp-content/uploads/sites/14/2018/04/geigerblogtalk.png?resize=602%2C602&ssl=1)
+
+
 <embed src="{{ site.baseurl }}/files/polmeth_2022_presentation.jpg" width="1200" height="900" type='application/jpg'>
 
 * See [here](https://www.skytheacademic.com/files/polmeth_2022_poster.pdf)
