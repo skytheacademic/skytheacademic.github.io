@@ -3,9 +3,6 @@ permalink: bio/
 title: "Research Agenda and personal Bio"
 excerpt: "About me"
 author_profile: true
-redirect_from:
-  - /bio/
-  - /bio.html
 ---
 About
 ======
