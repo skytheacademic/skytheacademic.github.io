@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research Agenda and personal Bio"
+title: "Research agenda and personal bio"
 permalink: bio/
 author_profile: true
 ---
