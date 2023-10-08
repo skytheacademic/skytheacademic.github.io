@@ -1,6 +1,7 @@
 ---
-permalink: dei/
+layout: page
 title: "Commitment to Diversity, Equity, and Inclusion (DEI)"
+permalink: dei/
 author_profile: true
 
 ---
