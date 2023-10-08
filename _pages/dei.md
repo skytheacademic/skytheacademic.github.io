@@ -3,7 +3,6 @@ layout: page
 title: "Commitment to Diversity, Equity, and Inclusion (DEI)"
 permalink: dei/
 author_profile: true
-
 ---
 
 As a passionate advocate for diversity, equity, and inclusion in academia, I am committed to creating an inclusive, equitable, and enriching community for all. My experiences growing up in poverty as a transgender, queer, first-generation student have motivated me to uplift underrepresented voices in my academic work and community engagement. I have made intentional efforts to co-author with and mentor graduate students from underrepresented backgrounds and tutor at Purdue's LGBTQ center, providing valuable knowledge, insights, and engagement to LGBTQ+ undergraduates. I am also a co-founder and the inaugural president of Indiana's first student association for LGBTQ+ graduate students.
