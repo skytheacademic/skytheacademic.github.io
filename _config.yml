@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sky Kunkel / skytheacademic"
+title                    : "skytheacademic"
 title_separator          : "-"
-name                     : &name "Sky Kunkel"
+name                     : &name ""
 description              : &description "personal description"
 url                      : https://www.skytheacademic.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

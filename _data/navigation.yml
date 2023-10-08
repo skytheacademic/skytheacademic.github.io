@@ -2,6 +2,9 @@ main:
   - title: "Research"
     url: research/
 
+  - title: "DEI"
+    url: dei/
+
   - title: "Teaching"
     url: teaching/
 
@@ -10,3 +13,6 @@ main:
 
   - title: "CV"
     url: files/cv_kunkel.pdf
+
+  - title: "Bio"
+    url: bio/
