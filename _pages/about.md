@@ -13,7 +13,15 @@ I am a fifth-year Ph.D. candidate at Purdue University, majoring in internationa
 
 I apply advanced methods of causal inference to uncover the effects of nonstate actors on violence, and have experience teaching introductory methods and causal inference to graduate students. Outside of UN Peacekeeping, my research interests branch out into other nonstate actors like Private Military and Security Contractors, such as my research on [Russia's Wagner Group](https://osf.io/y23s6/).I also use rigorous methods of qualitative research when it is more appropriate, and have conducted qualitative coding and descriptive theory building in my research on the [UN's use of Private Security Contractors](https://www.researchgate.net/publication/360778936_Double_Delegation_An_Investigation_of_the_UN_Use_of_Private_Security_Contractors.) For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio).
 
-<iframe src="./slideshow.html" width="100%" height="400px" frameborder="0"></iframe>
+<!-- about.md -->
+
+This is some content for your about page.
+
+<img id="slideshow-image" src="" alt="Slideshow Image">
+<script src="slideshow.js"></script>
+<script>
+  startSlideshow(); // Start the slideshow
+</script>
 
 If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me [here](https://koalendar.com/e/meet-with-sky/).
 
