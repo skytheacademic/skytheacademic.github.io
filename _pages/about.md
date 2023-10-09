@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: slideshow
 permalink: /
 title: "Sky Kunkel - Personal Website"
 excerpt: "About me"
@@ -13,41 +13,6 @@ About
 I am a fifth-year Ph.D. candidate at Purdue University, majoring in international relations (IR) with a minor in political methodology. I am also a 2023-24 United States Institute of Peace (USIP) [Peace Scholar](https://www.usip.org/grants-fellowships/jennings-randolph-peace-scholarship-dissertation-program/current-peace-scholars#Kunkel), and a 2023-24 Predoctoral Research Fellow at the [Gender and Security Sector](https://www.sabrinamkarim.com/gsslab) (GSS) Lab at Cornell University. My research broadly focuses on the intersection of security and non-state actors. My security research often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, my dissertation, *The Local Effects of UN Peacekeeping*, examines the effects peacekeepers have on saving civilian lives and preventing violence against civilians with advanced quantitative methods at the most granular level used in the peacekeeping effectiveness literature.
 
 I apply advanced methods of causal inference to uncover the effects of nonstate actors on violence, and have experience teaching introductory methods and causal inference to graduate students. Outside of UN Peacekeeping, my research interests branch out into other nonstate actors like Private Military and Security Contractors, such as my research on [Russia's Wagner Group](https://osf.io/y23s6/).I also use rigorous methods of qualitative research when it is more appropriate, and have conducted qualitative coding and descriptive theory building in my research on the [UN's use of Private Security Contractors](https://www.researchgate.net/publication/360778936_Double_Delegation_An_Investigation_of_the_UN_Use_of_Private_Security_Contractors.) For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio).
-
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img_mountains_wide.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img_nature_wide.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img_snow_wide.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
 
 
 If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me [here](https://koalendar.com/e/meet-with-sky/).
