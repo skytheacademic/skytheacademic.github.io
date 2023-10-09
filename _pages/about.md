@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /
 title: "Sky Kunkel - Personal Website"
 excerpt: "About me"
