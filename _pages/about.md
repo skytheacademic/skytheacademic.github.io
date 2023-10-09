@@ -78,8 +78,7 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 </style>
-</head>
-<body>
+
 
 <h2>Automatic Slideshow</h2>
 <p>Change image every 2 seconds:</p>
