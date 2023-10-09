@@ -18,7 +18,7 @@ I apply advanced methods of causal inference to uncover the effects of nonstate 
 This is some content for your about page.
 
 <img id="slideshow-image" src="" alt="Slideshow Image">
-<script src="slideshow.js"></script>
+<script src="../_layouts/"></script>
 <script>
   startSlideshow(); // Start the slideshow
 </script>
