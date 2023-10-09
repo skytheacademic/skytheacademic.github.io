@@ -9,6 +9,7 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <link rel="stylesheet" href="your-slideshow-styles.css"> <!-- Link to your slideshow styles -->
   </head>
 
   <body>
@@ -18,7 +19,16 @@ layout: compress
 
     {{ content }}
 
-    <!-- Add the slideshow code from the third snippet here -->
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+    <!-- Insert the slideshow container here -->
     <h2>Automatic Slideshow</h2>
     <p>Change image every 2 seconds:</p>
 
@@ -43,7 +53,6 @@ layout: compress
       </div>
 
     </div>
-
     <br>
 
     <div style="text-align:center">
@@ -51,38 +60,5 @@ layout: compress
       <span class="dot"></span>
       <span class="dot"></span>
     </div>
-
-    <script>
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-    </script>
-    <!-- End of slideshow code -->
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
   </body>
 </html>
