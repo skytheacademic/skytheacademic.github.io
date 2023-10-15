@@ -15,10 +15,10 @@ I apply advanced methods of causal inference to uncover the effects of nonstate 
 
 <!-- about.md -->
 
-This is some content for your about page.
+Test
 
 <img id="slideshow-image" src="" alt="Slideshow Image">
-<script src="../_layouts/"></script>
+<script src="../_layouts/slideshow.js"></script>
 <script>
   startSlideshow(); // Start the slideshow
 </script>
