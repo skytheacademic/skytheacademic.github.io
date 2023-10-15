@@ -4,9 +4,9 @@
 function startSlideshow() {
   let currentIndex = 0;
   const images = [
-    'img_mountains_wide.jpg',
-    'img_nature_wide.jpg',
-    'img_snow_wide.jpg',
+    './images/img_mountains_wide.jpg',
+    './images/img_nature_wide.jpg',
+    './images/img_snow_wide.jpg',
     // Add more image URLs here
   ];
 
