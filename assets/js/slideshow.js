@@ -4,9 +4,11 @@
 function startSlideshow() {
   let currentIndex = 0;
   const images = [
-    './images/img_mountains_wide.jpg',
-    './images/img_nature_wide.jpg',
-    './images/img_snow_wide.jpg',
+    './images/car.svg',
+    './images/drc_ug.svg',
+    './images/car_1.svg',
+    './images/men_map.svg',
+    './images/women_map.svg'
     // Add more image URLs here
   ];
 
@@ -18,5 +20,5 @@ function startSlideshow() {
   }
 
   // Start the slideshow
-  setInterval(showNextImage, 3000); // Change images every 3 seconds
+  setInterval(showNextImage, 6000); // Change images every 6 seconds
 }
