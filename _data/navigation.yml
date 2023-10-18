@@ -2,11 +2,11 @@ main:
   - title: "Research"
     url: research/
 
-  - title: "DEI"
-    url: dei/
-
   - title: "Teaching"
     url: teaching/
+
+  - title: "DEI"
+    url: dei/
 
   - title: "Presentations"
     url: presentations/
