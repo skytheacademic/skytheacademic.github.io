@@ -26,7 +26,7 @@ author_profile: true
 ### Working Papers
 
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping."
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 "Double Delegation: the UN Private Security Contractor Database."
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
