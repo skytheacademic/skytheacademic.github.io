@@ -18,6 +18,7 @@ author_profile: true
 
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping."
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/who_keeps_the_peace"><i class='fab fa-github'></i> [replication archive]</a></span>
 
 ### Working Papers
 
