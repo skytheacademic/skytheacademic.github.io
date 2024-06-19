@@ -70,7 +70,7 @@ d = a %>%
   summarize(death = mean(death), fatalities = sum(fatalities)) %>%
   as.data.frame()
 
-svg("./car_1.svg")
+svg("./car_1.svg", width = 10, height = 7)
 ggplot(d) + 
   geom_point(aes(x = score, y = fatalities, colour = wagner)) +
   geom_vline(xintercept = 0, linetype = "longdash", color = "black") +
@@ -172,7 +172,7 @@ dsc_wom = dsc.wom +
   theme(legend.background = element_rect(color = "black"), legend.position = c(0.25, 0.2),
         plot.margin = unit(c(0,0,0,0), "cm"), legend.margin=margin(c(2,2,2,2)), 
         legend.key.size = unit(2, 'cm'),
-        legend.text = element_text(size = 16)
+        legend.text = element_text(size = 14)
         ) + 
   guides(shape = guide_legend(order = 1),col = guide_legend(order = 2), legend.direction="vertical") +
   xlim(-14,37) + ylim(-12,21)
@@ -191,14 +191,14 @@ dsc.men =
 dsc_men = dsc.men + 
   labs(colour = "Variable") + 
   scale_color_manual(labels = c("Men PKs Deployed"), values = c("#EB5307")) +
-  theme(legend.background = element_rect(color = "black"), legend.position = c(0.25, 0.18),
-        plot.margin = unit(c(0,0,0,0), "cm"), legend.margin=margin(c(5,5,5,5)), 
-        legend.key.size = unit(0.2, 'cm'),
-        legend.text = element_text(size = 12)
-        ) + 
+  theme(legend.background = element_rect(color = "black"), legend.position = c(0.25, 0.2),
+        plot.margin = unit(c(0,0,0,0), "cm"), legend.margin=margin(c(2,2,2,2)), 
+        legend.key.size = unit(2, 'cm'),
+        legend.text = element_text(size = 14)
+  ) + 
   guides(shape = guide_legend(order = 1),col = guide_legend(order = 2), legend.direction="vertical") +
   xlim(-14,37) + ylim(-12,21)
 
-svg("./results/men_map.svg", width = 10, height = 7)
+svg("./men_map.svg", width = 10, height = 7)
 dsc_men
 dev.off()
