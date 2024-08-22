@@ -16,6 +16,10 @@ author_profile: true
 
 ### Under Review
 
+"Who Keeps the Peace? Gendered Effects in UN Peacekeeping."
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/who_keeps_the_peace"><i class='fab fa-github'></i> [replication archive]</a></span>
+
 "Violence as a Condition: From Russia to the CAR, the Global Impact of the Wagner Group." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/violence_as_a_condition"><i class='fab fa-github'></i> [replication archive]</a></span>
 
@@ -25,16 +29,14 @@ author_profile: true
 
 ### Working Papers
 
-"Who Keeps the Peace? Gendered Effects in UN Peacekeeping."
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/who_keeps_the_peace"><i class='fab fa-github'></i> [replication archive]</a></span>
+"All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/all_about_that_base.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/all_about_that_base"><i class='fab fa-github'></i> [replication archive]</a></span>
 
 "Double Delegation: the UN Private Security Contractor Database."
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/double_delegation.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 
 ### Works in Progress - Available Upon Request
-
-"All About that Base... No Trouble. The Gravity of Peacekeeping Bases."
 
 "Beyond Negative Peace: Do UN Peacekeepers decrease security and trust concerns?" (with [Catalina Vega-Méndez](https://catalina-vega-mendez.weebly.com/))
 
