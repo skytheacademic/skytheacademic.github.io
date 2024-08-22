@@ -5,6 +5,12 @@ permalink: teaching/
 author_profile: true
 ---
 
+### Teaching Philosophy
+
+My teaching philosophy centers on the importance of structured, incremental learning and creating an inclusive environment that empowers students from diverse backgrounds. Drawing from my experiences as a queer, first-generation student with a learning disability, I emphasize the value of scaffolding techniques to build students' confidence and understanding gradually. My approach is also shaped by my practical experience as a teaching assistant and my commitment to innovation, ensuring that all students have the support and opportunities they need to succeed.
+
+Click [here](https://www.skytheacademic.com/files/Teaching_Statement.pdf) for my full teaching statement. See below for an overview of the courses I have taught independently or been a teaching assistant, along with student reviews and an example lecture on nuclear weapons.
+
 ### Instructor of Record
 
 *POL 237 - Modern Weapons and International Relations, Summer 2021/22 (Online)*
