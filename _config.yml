@@ -10,6 +10,7 @@ locale                   : "en-US"
 title                    : "skytheacademic"
 title_separator          : "-"
 name                     : &name ""
+pronouns                 : "they/them"  
 description              : &description "personal description"
 url                      : https://www.skytheacademic.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -89,6 +90,7 @@ author:
   researchgate     : "https://www.researchgate.net/profile/Sky-Kunkel"
   github           : "skytheacademic"
   linkedin         : "skytheacademic"
+  bluesky          : "skytheacademic.bsky.social" # Replace this with you Bluesky username
   twitter          : "skytheacademic"
   employer         :
   pubmed           :
