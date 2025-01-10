@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sky Kunkel - Personal Website"
+title: "Dr. Sky Kunkel"
 excerpt: "About me"
 author_profile: true
 redirect_from:
