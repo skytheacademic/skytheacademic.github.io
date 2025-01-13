@@ -22,7 +22,25 @@ For a more detailed narrative about what, why, and how I study what I do, please
   startSlideshow(); // Start the slideshow
 </script>
 
-If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me [here](https://koalendar.com/e/meet-with-sky/).
+If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me below.
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2zHupCjDHO1atY1z-_wsLGb9H_YbunSCvtH-vHd5pomosKpUvJ30Of32PsHseRei6HUMhnrb80?gv=true',
+      color: '#3F51B5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
 
 <!--
 Site-wide configuration
