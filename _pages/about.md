@@ -17,17 +17,16 @@ My research broadly focuses on the intersection of security and nonstate actors.
 <!-- For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio). -->
 
 <style>
-  #slideshow-container {
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
+#slideshow-container {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;    /* very light grey */
+  padding: 8px;                 /* gives a little breathing room */
+  border-radius: 6px;           /* match your corner style */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);  /* whisper‑light shadow */
+  margin: 20px auto;            /* center it and add vertical space */
+}
 
-    /* new box styling below */
-    border: 1px solid rgba(0,0,0,0.2);    /* light grey border */
-    border-radius: 6px;                    /* slightly rounded corners */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);  /* soft drop‑shadow */
-  }
   #slideshow-container img {
     width: 100%;
     height: 100%;
