@@ -14,7 +14,7 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
 
 My research broadly focuses on the intersection of security and nonstate actors. I apply advanced methods of causal inference to uncover the effects of nonstate actors on violence, and I have experience teaching quantitative methods and causal inference to graduate students. My security research often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, in my [job market paper](https://www.skytheacademic.com/files/who_keeps_the_peace.pdf), I develop a novel theory on the gendered effects of peacekeepers due to the impact of women peacekeepers on the UN's ability to gather intelligence, and then demonstrate those effects with the first quantitative empirical analysis on women peacekeepers. Outside of UN Peacekeeping, my research interests include other nonstate actors like Private Military and Security Contractors, such as my research on [Russia's Wagner Group](https://www.skytheacademic.com/files/violence_as_a_condition.pdf). I also use rigorous methods of qualitative research when it is more appropriate, and have conducted qualitative coding and descriptive theory building in my research on the [UN's use of Private Security Contractors](www.skytheacademic.com/files/double_delegation.pdf).
 
-For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio).
+<!-- For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio). -->
 
 <img id="slideshow-image" src="" alt="Slideshow Image">
 <script src="../assets/js/slideshow.js"></script>
