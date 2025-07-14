@@ -22,6 +22,11 @@ My research broadly focuses on the intersection of security and nonstate actors.
     height: 400px;
     overflow: hidden;
     position: relative;
+
+    /* new box styling below */
+    border: 1px solid rgba(0,0,0,0.2);    /* light grey border */
+    border-radius: 6px;                    /* slightly rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);  /* soft drop‑shadow */
   }
   #slideshow-container img {
     width: 100%;
@@ -36,7 +41,10 @@ My research broadly focuses on the intersection of security and nonstate actors.
   <img id="slideshow-image" src="" alt="Slideshow Image">
 </div>
 <script src="../assets/js/slideshow.js"></script>
-<script>startSlideshow();</script>
+<script>
+  startSlideshow();
+</script>
+
 
 
 
