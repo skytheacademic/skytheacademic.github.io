@@ -16,11 +16,29 @@ My research broadly focuses on the intersection of security and nonstate actors.
 
 <!-- For a more detailed narrative about what, why, and how I study what I do, please see my bio [here](https://www.skytheacademic.com/bio). -->
 
-<img id="slideshow-image" src="" alt="Slideshow Image">
+<style>
+  #slideshow-container {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  #slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+  }
+</style>
+
+<div id="slideshow-container">
+  <img id="slideshow-image" src="" alt="Slideshow Image">
+</div>
 <script src="../assets/js/slideshow.js"></script>
-<script>
-  startSlideshow(); // Start the slideshow
-</script>
+<script>startSlideshow();</script>
+
+
 
 If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me below.
 
