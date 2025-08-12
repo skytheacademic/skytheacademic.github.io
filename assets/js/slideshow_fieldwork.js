@@ -3,14 +3,15 @@
 // Function to start the slideshow
 function startSlideshow() {
   let currentIndex = 0;
+  const baseurl = "{{ site.baseurl }}";
   const images = [
-    './images/fiji_1.jpg',
-    './images/fiji_2.jpg',
-    './images/fiji_3.jpg',
-    './images/fiji_4.jpg',
-    './images/fiji_5.jpg',
-    './images/fiji_6.jpg',
-    './images/fiji_7.jpg'
+    `${baseurl}/images/fiji_1.jpg`,
+    `${baseurl}/images/fiji_2.jpg`,
+    `${baseurl}/images/fiji_3.jpg`,
+    `${baseurl}/images/fiji_4.jpg`,
+    `${baseurl}/images/fiji_5.jpg`,
+    `${baseurl}/images/fiji_6.jpg`,
+    `${baseurl}/images/fiji_7.jpg`
   ];
 
   const imageElement = document.getElementById('slideshow-image');
