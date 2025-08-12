@@ -7,7 +7,8 @@ function startSlideshow() {
     './images/car.svg',
     './images/drc_ug.svg',
     './images/car_1.svg',
-    './images/map_prop.svg'
+    './images/map_prop.svg',
+    './images/fiji_2.jpg'
   ];
 
   const imageElement = document.getElementById('slideshow-image');
