@@ -4,7 +4,7 @@
 function startSlideshow() {
   let currentIndex = 0;
   const images = [
-    './images/fiji_1.jpg',
+    './images/car.svg',
     './images/fiji_2.jpg',
     './images/fiji_3.jpg',
     './images/fiji_4.jpg',
