@@ -3,7 +3,7 @@
 // Function to start the slideshow
 function startSlideshow() {
   let currentIndex = 0;
-  const baseurl = "{{ site.baseurl }}";
+  const baseurl = "{{ www.skytheacademic.com }}";
   const images = [
     `${baseurl}/images/fiji_1.jpg`,
     `${baseurl}/images/fiji_2.jpg`,
