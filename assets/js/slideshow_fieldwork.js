@@ -1,29 +1,18 @@
 // slideshow_fieldwork.js
-
-// Function to start the slideshow
 function startSlideshow() {
-  let currentIndex = 0;
-  const baseurl = "{{ www.skytheacademic.com }}";
+  let i = 0;
   const images = [
-    `${baseurl}/images/fiji_1.jpg`,
-    `${baseurl}/images/fiji_2.jpg`,
-    `${baseurl}/images/fiji_3.jpg`,
-    `${baseurl}/images/fiji_4.jpg`,
-    `${baseurl}/images/fiji_5.jpg`,
-    `${baseurl}/images/fiji_6.jpg`,
-    `${baseurl}/images/fiji_7.jpg`
-  ];
+    '/images/fiji_1.jpg',
+    '/images/fiji_2.jpg',
+    '/images/fiji_3.jpg',
+    '/images/fiji_4.jpg',
+    '/images/fiji_5.jpg',
+    '/images/fiji_6.jpg',
+    '/images/fiji_7.jpg'
+  ].map(p => new URL(p, window.location.origin).href);
 
-  const imageElement = document.getElementById('slideshow-image');
-
-  function showNextImage() {
-    imageElement.src = images[currentIndex];
-    currentIndex = (currentIndex + 1) % images.length;
-  }
-
-  // Show the first image immediately
-  showNextImage();
-
-  // Start the slideshow
-  setInterval(showNextImage, 6000); // Change images every 6 seconds
+  const el = document.getElementById('slideshow-image');
+  function next() { el.src = images[i]; i = (i + 1) % images.length; }
+  next();
+  setInterval(next, 6000);
 }
