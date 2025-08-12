@@ -32,7 +32,7 @@ In addition to the policy research listed below, I have conducted fieldwork in c
 <div id="slideshow-container">
   <img id="slideshow-image" src="" alt="Slideshow Image">
 </div>
-<script src="../../assets/js/slideshow_fieldwork.js"></script>
+<script src="../assets/js/slideshow_fieldwork.js"></script>
 <script>
   startSlideshow();
 </script>
