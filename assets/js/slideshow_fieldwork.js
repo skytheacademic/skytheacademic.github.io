@@ -11,7 +11,6 @@ function startSlideshow() {
     './images/fiji_5.jpg',
     './images/fiji_6.jpg',
     './images/fiji_7.jpg'
-    // Add more image URLs here
   ];
 
   const imageElement = document.getElementById('slideshow-image');

@@ -8,7 +8,6 @@ function startSlideshow() {
     './images/drc_ug.svg',
     './images/car_1.svg',
     './images/map_prop.svg'
-    // Add more image URLs here
   ];
 
   const imageElement = document.getElementById('slideshow-image');
