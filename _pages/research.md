@@ -19,6 +19,11 @@ Science Review</i>.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/when_peacekeepers_leave"><i class='fab fa-github'></i> [replication archive]</a></span>
 
+### Other Publications
+"More Than Presence: Gendered Dynamics of Interpreting and Negotiating Trust,” (with DeAnne Roark and Hatti Sellers) in the <i>Oxford Handbook of Interpreting UN Peacekeeping</i>. Edited by Vanessa Newby and Chiara Ruffa. Forthcoming 2027, Oxford University Press.
+
+"Women, Peace, and Participation,” in the <i>Handbook on Gender and Development: Critical Engagements with Gender and Social Justice</i>. Edited by Nitya Rao, Jasmine Gideon, Ulrike Theuerkauf, Shannon Philip. Forthcoming 2027, Palgrave Macmillan, London.
+
 ### Under Review
 
 "Violence as a Condition: Structure, Composition, and the Use of Lethal Force." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). R&R at the <i> Journal of Conflict Resolution</i>.
