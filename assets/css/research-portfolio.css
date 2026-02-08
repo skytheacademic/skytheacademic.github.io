@@ -6,30 +6,30 @@
 /* Main Container */
 .research-portfolio {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px auto 40px auto;  /* Reduced top margin from 40px to 20px */
     padding: 0 20px;
 }
 
 .research-portfolio h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;  /* Reduced from 2em */
     color: #1e3a5f;
-    margin-bottom: 10px;
+    margin-bottom: 8px;  /* Reduced from 10px */
 }
 
 .research-portfolio .subtitle {
     text-align: center;
     color: #5a7a9f;
-    margin-bottom: 40px;
-    font-size: 1.1em;
+    margin-bottom: 25px;  /* Reduced from 40px */
+    font-size: 1em;  /* Reduced from 1.1em */
 }
 
 /* Grid Container */
 .pillars-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));  /* Reduced min from 250px */
+    gap: 18px;  /* Reduced from 25px */
+    margin-bottom: 20px;  /* Reduced from 30px */
 }
 
 /* Individual Pillar Cards */
@@ -37,7 +37,7 @@
     background: linear-gradient(135deg, #f8f9fb 0%, #ffffff 100%);
     border: 2px solid #e1e8f0;
     border-radius: 12px;
-    padding: 30px 20px;
+    padding: 20px 15px;  /* Reduced from 30px 20px */
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
@@ -75,9 +75,9 @@
 
 /* Icon Styling */
 .pillar-icon {
-    font-size: 3em;
-    margin-bottom: 15px;
-    height: 70px;
+    font-size: 2.2em;  /* Reduced from 3em */
+    margin-bottom: 10px;  /* Reduced from 15px */
+    height: 50px;  /* Reduced from 70px */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,10 +90,10 @@
 
 /* Title */
 .pillar-title {
-    font-size: 1.3em;
+    font-size: 1.1em;  /* Reduced from 1.3em */
     font-weight: 700;
     color: #1e3a5f;
-    margin-bottom: 10px;
+    margin-bottom: 8px;  /* Reduced from 10px */
     letter-spacing: 0.5px;
 }
 
@@ -102,11 +102,11 @@
     display: inline-block;
     background: linear-gradient(135deg, #1e3a5f 0%, #2d4a6f 100%);
     color: white;
-    padding: 5px 15px;
+    padding: 4px 12px;  /* Reduced from 5px 15px */
     border-radius: 20px;
-    font-size: 0.9em;
+    font-size: 0.85em;  /* Reduced from 0.9em */
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15px;  /* Reduced from 20px */
     letter-spacing: 0.5px;
 }
 
@@ -142,7 +142,7 @@
 /* Content Section */
 .pillar-content {
     text-align: left;
-    margin-top: 15px;
+    margin-top: 12px;  /* Reduced from 15px */
 }
 
 .pillar-content ul {
@@ -152,10 +152,10 @@
 }
 
 .pillar-content li {
-    padding: 8px 0 8px 25px;
+    padding: 6px 0 6px 22px;  /* Reduced from 8px 0 8px 25px */
     color: #4a5d75;
-    font-size: 0.95em;
-    line-height: 1.5;
+    font-size: 0.9em;  /* Reduced from 0.95em */
+    line-height: 1.4;  /* Reduced from 1.5 */
     position: relative;
 }
 
@@ -174,19 +174,19 @@
 /* Action Buttons Section */
 .portfolio-actions {
     text-align: center;
-    margin: 35px 0 40px 0;
+    margin: 25px 0 30px 0;  /* Reduced from 35px 0 40px 0 */
 }
 
 .portfolio-button {
     display: inline-block;
-    padding: 12px 30px;
-    margin: 0 10px;
+    padding: 10px 24px;  /* Reduced from 12px 30px */
+    margin: 0 8px;  /* Reduced from 0 10px */
     background: linear-gradient(135deg, #1e3a5f 0%, #2d4a6f 100%);
     color: white;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 0.95em;  /* Reduced from 1em */
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(30, 58, 95, 0.2);
 }
@@ -210,9 +210,9 @@
 .portfolio-note {
     text-align: center;
     color: #5a7a9f;
-    font-size: 0.9em;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    font-size: 0.85em;  /* Reduced from 0.9em */
+    margin-top: 12px;  /* Reduced from 15px */
+    margin-bottom: 20px;  /* Reduced from 30px */
     font-style: italic;
 }
 
@@ -221,13 +221,13 @@
    ============================================ */
 
 #slideshow-container {
-    width: 600px;
-    height: 400px;
+    width: 500px;  /* Reduced from 600px */
+    height: 333px;  /* Reduced proportionally (maintaining aspect ratio) */
     background-color: #fafafa;
     padding: 8px;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    margin: 20px auto;
+    margin: 15px auto;  /* Reduced from 20px */
 }
 
 #slideshow-container img {
@@ -249,23 +249,23 @@
     }
     
     .research-portfolio h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;  /* Adjusted for mobile */
     }
     
     .pillar-icon {
-        font-size: 2.5em;
-        height: 60px;
+        font-size: 2em;  /* Adjusted from 2.5em */
+        height: 45px;  /* Adjusted from 60px */
     }
     
     .portfolio-button {
         display: block;
         margin: 10px auto;
-        max-width: 250px;
+        max-width: 220px;  /* Reduced from 250px */
     }
     
     #slideshow-container {
         width: 90%;
-        max-width: 600px;
+        max-width: 500px;  /* Reduced from 600px */
         height: auto;
         aspect-ratio: 3/2;
     }
@@ -279,6 +279,6 @@
     
     #slideshow-container {
         width: 80%;
-        max-width: 600px;
+        max-width: 500px;  /* Reduced from 600px */
     }
 }
