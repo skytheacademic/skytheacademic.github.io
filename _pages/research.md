@@ -14,6 +14,10 @@ author_profile: true
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://www.washingtonpost.com/politics/2021/06/15/voters-around-world-think-their-governments-are-out-touch-they-have-point/'><i class='fas fa-bullhorn'></i> [Washington Post coverage]</a></span> -->
 
 ### Peer-Reviewed Journal Articles
+"Violence as a Condition: Structure, Composition, and the Use of Lethal Force." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). Accepted at the <i> Journal of Conflict Resolution</i>.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/violence_as_a_condition"><i class='fab fa-github'></i> [replication archive]</a></span>
+
 "Here Today, Gone Tomorrow: Dynamics of Peacekeeper Entry and Exit on Violence Against Civilians." (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/), [Rebecca Dudley](https://www.rebeccaedudley.com/), and [Zach Warner](https://zachwarner.net/)). Accepted at the <i> International Political
 Science Review</i>.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
@@ -25,11 +29,6 @@ Science Review</i>.
 "Women, Peace, and Participation,” in the <i>Handbook on Gender and Development: Critical Engagements with Gender and Social Justice</i>. Edited by Nitya Rao, Jasmine Gideon, Ulrike Theuerkauf, Shannon Philip. Forthcoming 2027, Palgrave Macmillan, London.
 
 ### Under Review
-
-"Violence as a Condition: Structure, Composition, and the Use of Lethal Force." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). R&R at the <i> Journal of Conflict Resolution</i>.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/violence_as_a_condition"><i class='fab fa-github'></i> [replication archive]</a></span>
-
 "What’s in a Name? Implications of Overusing 'Sub-Saharan Africa.'" (with [Mitushi Mukherjee](https://www.mitushimukherjee.com/)). R&R at <i> International Studies Perspectives</i>.
 
 "Who Keeps the Peace? Gendered Effects in UN Peacekeeping."
