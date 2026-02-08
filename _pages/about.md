@@ -44,7 +44,7 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .pillar {
@@ -168,30 +168,70 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
 .pillar.meta .pillar-content li::before { color: #3d5a7f; }
 .pillar.policy .pillar-content li::before { color: #4a6b8a; }
 
-.pillar-link {
-    display: inline-block;
-    margin-top: 15px;
-    color: #1e3a5f;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9em;
-    transition: all 0.2s ease;
-    border-bottom: 2px solid transparent;
+/* Action Buttons Section */
+.portfolio-actions {
+    text-align: center;
+    margin: 35px 0 40px 0;
 }
 
-.pillar-link:hover {
-    color: #4a6b8a;
-    border-bottom-color: #4a6b8a;
+.portfolio-button {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 0 10px;
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d4a6f 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(30, 58, 95, 0.2);
+}
+
+.portfolio-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(30, 58, 95, 0.3);
+    background: linear-gradient(135deg, #2d4a6f 0%, #3d5a7f 100%);
+    color: white;
+}
+
+.portfolio-button.policy-button {
+    background: linear-gradient(135deg, #4a6b8a 0%, #5a7a9f 100%);
+}
+
+.portfolio-button.policy-button:hover {
+    background: linear-gradient(135deg, #5a7a9f 0%, #6a8aaf 100%);
 }
 
 .portfolio-note {
     text-align: center;
     color: #5a7a9f;
     font-size: 0.9em;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     font-style: italic;
 }
 
+/* Slideshow Styling */
+#slideshow-container {
+  width: 600px;
+  height: 400px;
+  background-color: #fafafa;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: 20px auto;
+}
+
+#slideshow-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .pillars-container {
         grid-template-columns: 1fr;
@@ -203,11 +243,26 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
         font-size: 2.5em;
         height: 60px;
     }
+    .portfolio-button {
+        display: block;
+        margin: 10px auto;
+        max-width: 250px;
+    }
+    #slideshow-container {
+        width: 90%;
+        max-width: 600px;
+        height: auto;
+        aspect-ratio: 3/2;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .pillars-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    #slideshow-container {
+        width: 80%;
+        max-width: 600px;
     }
 }
 </style>
@@ -230,7 +285,6 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
                     <li>Women, peace, & participation</li>
                 </ul>
             </div>
-            <a href="/research/#peacekeeping" class="pillar-link">View Projects →</a>
         </div>
 
         <div class="pillar pmsc">
@@ -244,7 +298,6 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
                     <li>Organizational incentives & OSV</li>
                 </ul>
             </div>
-            <a href="/research/#pmsc" class="pillar-link">View Projects →</a>
         </div>
 
         <div class="pillar meta">
@@ -255,9 +308,9 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
                 <ul>
                     <li>"Sub-Saharan Africa" terminology critique</li>
                     <li>De-identifying sensitive survey data</li>
+                    <li>Decolonizing research methods</li>
                 </ul>
             </div>
-            <a href="/research/#meta" class="pillar-link">View Projects →</a>
         </div>
 
         <div class="pillar policy">
@@ -271,26 +324,40 @@ Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector
                     <li>Fieldwork with Fiji military & police</li>
                 </ul>
             </div>
-            <a href="/policy/" class="pillar-link">View Projects →</a>
         </div>
 
     </div>
-
+    
+    
+    <div class="portfolio-actions">
+        <a href="/research/" class="portfolio-button">View Research Projects</a>
+        <a href="/policy/" class="portfolio-button policy-button">View Policy Work</a>
+    </div>
+    
+    <div id="slideshow-container">
+        <img id="slideshow-image" src="" alt="Slideshow Image">
+    </div>
 </div>
 
+<script src="../assets/js/slideshow.js"></script>
+<script>
+  startSlideshow();
+</script>
+
 ---
+
 
 <!-- My research broadly focuses on the intersection of security and nonstate actors. I apply advanced methods of causal inference to uncover the effects of nonstate actors on violence, and I have experience teaching quantitative methods and causal inference to graduate students. My security research often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, in my [job market paper](https://www.skytheacademic.com/files/who_keeps_the_peace.pdf), I develop a novel theory on the gendered effects of peacekeepers due to the impact of women peacekeepers on the UN's ability to gather intelligence, and then demonstrate those effects with the first quantitative empirical analysis on women peacekeepers. Outside of UN Peacekeeping, my research interests include other nonstate actors like Private Military and Security Contractors, such as my research on [Russia's Wagner Group](https://www.skytheacademic.com/files/violence_as_a_condition.pdf). I also use rigorous methods of qualitative research when it is more appropriate, and have conducted qualitative coding and descriptive theory building in my research on the [UN's use of Private Security Contractors](https://www.skytheacademic.com/files/double_delegation.pdf). -->
 
 In addition to my academic research, I have conducted policy-relevant fieldwork in collaboration with the Republic of Fiji Military Forces and the Fiji Police Force. This work, undertaken through the Measuring Opportunities for Women in Peace Operations (MOWIP) project, supported gender-sensitive reforms in UN peacekeeping and contributed to broader international efforts to increase women’s participation in security institutions. More details can be found on my [Policy](https://www.skytheacademic.com/policy/) page.
 
-<style>
+<!-- <style>
 #slideshow-container {
   width: 600px;
   height: 400px;
   background-color: #fafafa;    /* very light grey */
   padding: 8px;                 /* gives a little breathing room */
-  border-radius: 6px;           /* match your corner style */
+  border-radius: 6px;           /* match corner style */
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);  /* whisper‑light shadow */
   margin: 20px auto;            /* center it and add vertical space */
 }
@@ -310,7 +377,7 @@ In addition to my academic research, I have conducted policy-relevant fieldwork 
 <script src="../assets/js/slideshow.js"></script>
 <script>
   startSlideshow();
-</script>
+</script> -->
 
 
 
