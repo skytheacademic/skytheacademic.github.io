@@ -5,6 +5,9 @@ permalink: research/
 author_profile: true
 ---
 
+My work examines international security providers, including UN peacekeeping operations and private military contractors such as the Wagner Group, with a focus on violence against civilians. Methodologically, I specialize in causal inference, survey research, and computational data science.
+
+
 <!-- ### Publications
 
 "Affluence and Congruence: Unequal Representation Around the World" (with Noam Lupu). 2022. *Journal of Politics* 84 (1): 276-290.
