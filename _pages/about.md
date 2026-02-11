@@ -18,7 +18,7 @@ My research broadly focuses on the intersection of security and nonstate actors.
 
 In addition to my academic research, I have conducted policy-relevant fieldwork in collaboration with the Republic of Fiji Military Forces and the Fiji Police Force. This work, undertaken through the Measuring Opportunities for Women in Peace Operations (MOWIP) project, supported gender-sensitive reforms in UN peacekeeping and contributed to broader international efforts to increase women’s participation in security institutions. More details can be found on my [Policy](https://www.skytheacademic.com/policy/) page.
 
-<!-- <style>
+<style>
 #slideshow-container {
   width: 600px;
   height: 400px;
@@ -44,9 +44,7 @@ In addition to my academic research, I have conducted policy-relevant fieldwork 
 <script src="../assets/js/slideshow.js"></script>
 <script>
   startSlideshow();
-</script> -->
-
-
+</script>
 
 
 If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me below.
