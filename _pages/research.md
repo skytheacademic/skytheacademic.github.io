@@ -17,9 +17,9 @@ My work examines international security providers, including UN peacekeeping ope
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='https://www.washingtonpost.com/politics/2021/06/15/voters-around-world-think-their-governments-are-out-touch-they-have-point/'><i class='fas fa-bullhorn'></i> [Washington Post coverage]</a></span> -->
 
 ### Peer-Reviewed Journal Articles
-"Violence as a Condition: Structure, Composition, and the Use of Lethal Force." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). Accepted at the <i> Journal of Conflict Resolution</i>.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [current draft]</a></span>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://github.com/skytheacademic/violence_as_a_condition"><i class='fab fa-github'></i> [replication archive]</a></span>
+"Violence as a Condition: Structure, Composition, and the Use of Lethal Force." (with [Matthew Kyle Ellis](https://matt-ellis.weebly.com/)). 2026. <i>Journal of Conflict Resolution</i>.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href='{{ "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}}'><i class='fas fa-file-pdf'></i> [paper]</a></span>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="padding-right:5%"><a href="https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/2FB6KD"><i class='fas fa-code-branch'></i> [replication archive]</a></span>
 
 "Here Today, Gone Tomorrow: Dynamics of Peacekeeper Entry and Exit on Violence Against Civilians." (with [Douglas B. Atkinson](https://dougbatkinson.wordpress.com/), [Rebecca Dudley](https://www.rebeccaedudley.com/), and [Zach Warner](https://zachwarner.net/)). Accepted at the <i> International Political
 Science Review</i>.
