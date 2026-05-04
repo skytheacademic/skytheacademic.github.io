@@ -55,7 +55,7 @@ If you are interested in talking to me, please feel free to contact me on any of
   var target = document.currentScript;
   window.addEventListener('load', function() {
     calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2zHupCjDHO1atY1z-_wsLGb9H_YbunSCvtH-vHd5pomosKpUvJ30Of32PsHseRei6HUMhnrb80?gv=true',
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3rduoBaS3HTBGLeaS_pTV8rN3nf8ME9AiHGLfcZ2dDwedHCulVEyPKa6l_woGtgXQTRirSWsMX?gv=true',
       color: '#3F51B5',
       label: 'Book an appointment',
       target,
