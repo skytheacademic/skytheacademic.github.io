@@ -34,6 +34,132 @@
   }
 }
 
+.page .homepage-lead,
+.page .research-section-links,
+.page .teaching-card {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: mix(#fff, $lighter-gray, 55%);
+}
+
+.page .homepage-lead {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  border-left: 4px solid $link-color;
+
+  p {
+    margin-bottom: 0.75em;
+  }
+}
+
+.page .homepage-actions,
+.page .publication-actions,
+.page .research-section-links,
+.page .teaching-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.page .homepage-actions,
+.page .teaching-actions {
+  margin-top: 0.75em;
+}
+
+.page .publication-actions {
+  margin: 0.5em 0 1.25em;
+}
+
+.page .research-section-links {
+  margin: 1.25em 0 1.5em;
+  padding: 0.75em;
+}
+
+.page .research-section-links__label {
+  color: $darker-gray;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.page .homepage-action,
+.page .publication-action,
+.page .research-section-link,
+.page .teaching-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.35em 0.65em;
+  border: 1px solid mix(#fff, $link-color, 65%);
+  border-radius: $border-radius;
+  background: mix(#fff, $link-color, 92%);
+  color: $link-color;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+
+  &:hover {
+    border-color: $link-color;
+    color: $link-color-hover;
+    text-decoration: none;
+  }
+}
+
+.page .teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.page .teaching-card {
+  padding: 1em;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  h4 {
+    margin-bottom: 0.25em;
+  }
+
+  blockquote {
+    margin: 0 0 0.75em;
+    padding-left: 0.75em;
+    border-left: 3px solid mix(#fff, $link-color, 60%);
+    color: $dark-gray;
+    font-size: 0.95em;
+  }
+}
+
+.page .teaching-card--wide {
+  grid-column: 1 / -1;
+}
+
+.page .teaching-meta {
+  margin-top: 0;
+  color: mix(#fff, $dark-gray, 20%);
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.page .teaching-course-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0.6em 0;
+    border-top: 1px solid $border-color;
+
+    &:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
