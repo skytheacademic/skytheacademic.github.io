@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    {% include seo.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons (subset of the theme's set) -->
+    <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ '/images/favicon-16x16.png' | relative_url }}" sizes="16x16">
+    <link rel="shortcut icon" href="{{ '/images/favicon.ico' | relative_url }}">
+
+    <!-- Type + icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+
+    <!-- Redesign styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/splitscreen.css' | relative_url }}">
+  </head>
+
+  <body class="ss-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="shell">
+      {% include identity-panel.html %}
+
+      <main class="content" id="main" role="main">
+        <article class="page show {{ page.page_kind }}">
+          {{ content }}
+        </article>
+      </main>
+    </div>
+
+    <script src="{{ '/assets/js/splitscreen.js' | relative_url }}"></script>
+    {% include analytics.html %}
+  </body>
+</html>
