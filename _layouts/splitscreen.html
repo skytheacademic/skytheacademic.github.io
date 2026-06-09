@@ -28,6 +28,16 @@
       {% include identity-panel.html %}
 
       <main class="content" id="main" role="main">
+        {% if page.hero %}
+        <div class="hero">
+          <img src="{{ page.hero | relative_url }}" alt="">
+          <div class="ov"></div>
+          <div class="ht">
+            {% if page.hero_kicker %}<div class="k">{{ page.hero_kicker }}</div>{% endif %}
+            <h2>{{ page.hero_title | default: page.title }}</h2>
+          </div>
+        </div>
+        {% endif %}
         <article class="page show {{ page.page_kind }}">
           {{ content }}
         </article>
