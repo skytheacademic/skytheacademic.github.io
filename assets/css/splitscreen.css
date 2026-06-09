@@ -24,14 +24,17 @@ a{text-decoration:none;color:inherit}
 .shell{display:grid;grid-template-columns:260px 1fr;align-items:start}
 
 /* Identity panel */
-.panel{background:var(--navy);color:#fff;position:sticky;top:0;height:100vh;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:40px 34px}
+.panel{background:var(--navy);color:#fff;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;justify-content:space-between;padding:30px 34px;scrollbar-width:thin;scrollbar-color:#2c4a73 transparent}
+.panel::-webkit-scrollbar{width:8px}
+.panel::-webkit-scrollbar-thumb{background:#2c4a73;border-radius:4px}
+.panel::-webkit-scrollbar-track{background:transparent}
 #mesh{position:absolute;inset:0;z-index:1}
 .panel .inner{position:relative;z-index:2}
-.panel .photo{width:124px;height:152px;border-radius:50%;object-fit:cover;object-position:center 22%;display:block;margin-bottom:20px;box-shadow:0 8px 22px rgba(0,0,0,.32)}
+.panel .photo{width:124px;height:152px;border-radius:50%;object-fit:cover;object-position:center 22%;display:block;margin-bottom:14px;box-shadow:0 8px 22px rgba(0,0,0,.32)}
 .panel h1{font-size:32px;line-height:1.05;font-weight:800;letter-spacing:-.02em;margin-bottom:8px}
-.panel .role{color:var(--gold);font-size:14px;font-weight:600;margin-bottom:18px}
-.panel .tl{font-size:13.5px;color:#c5d2e6;line-height:1.55;max-width:186px;margin-bottom:22px}
-.panel nav{position:relative;z-index:2;margin:8px 0 18px}
+.panel .role{color:var(--gold);font-size:14px;font-weight:600;margin-bottom:12px}
+.panel .tl{font-size:13.5px;color:#c5d2e6;line-height:1.55;max-width:186px;margin-bottom:14px}
+.panel nav{position:relative;z-index:2;margin:4px 0 10px}
 .panel nav a{display:flex;align-items:center;gap:10px;font-size:14.5px;color:#9fb1cd;padding:8px 0;cursor:pointer;transition:.18s}
 .panel nav a .bar{width:3px;height:15px;background:transparent;border-radius:3px;transition:.18s}
 .panel nav a:hover{color:#fff}
@@ -40,7 +43,7 @@ a{text-decoration:none;color:inherit}
 .panel nav a.on .bar{background:var(--gold);height:20px}
 
 /* CV button (panel) */
-.panel .cv-btn{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:9px;margin:6px 0 20px;max-width:284px;padding:12px 18px;border:1px solid var(--gold);border-radius:8px;color:#f4e9cf;font-size:14.5px;font-weight:600;transition:.16s}
+.panel .cv-btn{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:9px;margin:4px 0 12px;max-width:284px;padding:12px 18px;border:1px solid var(--gold);border-radius:8px;color:#f4e9cf;font-size:14.5px;font-weight:600;transition:.16s}
 .panel .cv-btn i{font-size:13px;color:var(--gold);transition:.16s}
 .panel .cv-btn:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
 .panel .cv-btn:hover i{color:var(--navy)}
