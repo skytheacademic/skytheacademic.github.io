@@ -1,82 +1,26 @@
 ---
+layout: splitscreen
+page_kind: home
 permalink: /
 title: "Dr. Sky Kunkel"
-excerpt: "About me"
-author_profile: true
+excerpt: "Postdoctoral Research Associate at Cornell University's Gender and Security Sector Lab, studying UN peacekeeping, private military contractors, and the protection of civilians."
 redirect_from:
   - /about
   - /about.html
 ---
-About
-======
 
-Hello! I am a Postdoctoral Research Associate at the [Gender and Security Sector](https://www.sabrinamkarim.com/gsslab) (GSS) Lab at Cornell University, and a 2023-24 United States Institute of Peace (USIP) [Peace Scholar](https://www.usip.org/grants-fellowships/jennings-randolph-peace-scholarship-dissertation-program/former-peace-scholars). I obtained my Ph.D. from Purdue University in May 2024, studying international relations and political methodology. **I am on the job market!**
+<div class="kick">About</div>
 
-My research covers the intersection of security and nonstate actors. I apply advanced methods of causal inference to uncover the effects of nonstate actors on violence, and I have experience teaching quantitative methods and causal inference to graduate students. My security research often focuses on United Nations (UN) peacekeeping and evaluating how, when, and where peacekeepers effectively protect civilians. For example, in my [job market paper](https://www.skytheacademic.com/files/who_keeps_the_peace.pdf), I develop a novel theory on the gendered effects of peacekeepers due to the impact of female peacekeepers on the UN's ability to gather intelligence, and then demonstrate those effects with the first quantitative empirical analysis on female peacekeepers. Outside of UN Peacekeeping, my research interests include other nonstate actors like private military contractors, such as [Russia's Wagner Group](https://www.skytheacademic.com/files/violence_as_a_condition.pdf). I also use rigorous methods of qualitative research when it is more appropriate, and have conducted qualitative coding and descriptive theory building in my research on the [UN's use of Private Security Contractors](https://www.skytheacademic.com/files/double_delegation.pdf).
-
-Beyond my substantive research, I specialize in survey implementation and research data infrastructure for complex, multi-country projects. At the GSS Lab, I am the primary data lead for military and police survey projects, overseeing data cleaning, merging, harmonization, quality assurance, documentation, and cross-survey comparability. This work supports both academic research and policy-facing recommendations for institutional reform.
-
-This survey and data work also extends into policy-relevant fieldwork. Through the Measuring Opportunities for Women in Peace Operations (MOWIP) project, I have worked with partners including the Republic of Fiji Military Forces, the Fiji Police Force, UN Women, and the Elsie Initiative Fund to support survey adaptation, field implementation, data management, and analysis. This work helps identify institutional barriers to women’s meaningful participation in security institutions and translates survey findings into actionable recommendations for gender-sensitive reform. More details can be found on my [Policy](https://www.skytheacademic.com/policy/) page.
-
-<style>
-#slideshow-container {
-  width: 600px;
-  height: 400px;
-  background-color: #fafafa;    /* very light grey */
-  padding: 8px;                 /* gives a little breathing room */
-  border-radius: 6px;           /* match corner style */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);  /* whisper‑light shadow */
-  margin: 20px auto;            /* center it and add vertical space */
-}
-
-  #slideshow-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
-    display: block;
-  }
-</style>
-
-<div id="slideshow-container">
-  <img id="slideshow-image" src="" alt="Slideshow Image">
+<div class="bodytext">
+  <p>I am a Postdoctoral Research Associate at the <a href="https://www.sabrinamkarim.com/gsslab">Gender and Security Sector (GSS) Lab</a> at Cornell University and a 2023-24 United States Institute of Peace (USIP) <a href="https://www.usip.org/grants-fellowships/jennings-randolph-peace-scholarship-dissertation-program/former-peace-scholars">Peace Scholar</a>, and I earned my Ph.D. from Purdue University in 2024. I am on the job market. I conduct research on how international security providers, particularly UN peacekeepers and private military and security contractors (PMSCs), impact violence and stability in conflict zones, offering new insights into the evolving nature of international and domestic security.</p>
+  <p>I apply advanced methods of <b>causal inference</b> to uncover the effects of nonstate actors on violence, and I have experience teaching quantitative methods to graduate students. In my <a href="{{ '/files/who_keeps_the_peace.pdf' | relative_url }}">job market paper</a>, I develop a novel theory on the gendered effects of peacekeepers and provide the <b>first quantitative empirical analysis</b> of female peacekeepers; I also study contractors such as <a href="{{ '/files/violence_as_a_condition.pdf' | relative_url }}">Russia's Wagner Group</a> and the UN's own use of <a href="{{ '/files/double_delegation.pdf' | relative_url }}">private security</a>.</p>
+  <p>Beyond my substantive research, I specialize in survey implementation and research data infrastructure for complex, multi-country projects, and I am the <b>primary data lead</b> for the GSS Lab's military and police surveys. This work extends into policy-relevant fieldwork: through the MOWIP project I have worked with partners including the Republic of Fiji Military Forces, UN Women, and the Elsie Initiative Fund to translate survey findings into recommendations for gender-sensitive reform.</p>
 </div>
-<script src="../assets/js/slideshow.js"></script>
-<script>
-  startSlideshow();
-</script>
 
-
-If you are interested in talking to me, please feel free to contact me on any of the platforms listed on the left side of this page or schedule a meeting with me below.
-
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3rduoBaS3HTBGLeaS_pTV8rN3nf8ME9AiHGLfcZ2dDwedHCulVEyPKa6l_woGtgXQTRirSWsMX?gv=true',
-      color: '#3F51B5',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
-
-<!--
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository. -->
+<div class="hl">
+  <h3>Selected work</h3>
+  <a class="item" href="{{ '/research/' | relative_url }}"><h4>Who Keeps the Peace? The Gendered Effects of Peacekeeping</h4><span class="v">Job market paper &middot; 2025</span></a>
+  <a class="item" href="{{ '/research/' | relative_url }}"><h4>Violence as a Condition: Structure, Composition &amp; the Use of Lethal Force</h4><span class="v">JCR &middot; 2026</span></a>
+  <a class="item" href="{{ '/research/' | relative_url }}"><h4>Here Today, Gone Tomorrow: Peacekeeper Entry &amp; Exit</h4><span class="v">IPSR</span></a>
+  <a class="more" href="{{ '/research/' | relative_url }}">All research &amp; policy work &rarr;</a>
+</div>

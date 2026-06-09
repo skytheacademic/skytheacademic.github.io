@@ -1,0 +1,197 @@
+# ============================================================================
+# Single source of truth for publications.
+# Consumed by scripts/build_publications.py, which generates BOTH:
+#   - the Research page cards  (writes the #grid block in _pages/research.md)
+#   - the CV entry block       (writes cv/publications_auto.tex, \input by cv.tex)
+# Edit here, then run:  python3 scripts/build_publications.py
+#
+# Shared facts (title, coauthors, venue, status, topics, links) live here once.
+# Author display strings + LaTeX/HTML are DERIVED by the generator, so the CV
+# and the website can never disagree about a title, venue, or status.
+#
+# Fields per entry:
+#   id            unique slug
+#   title         display title (Research page)
+#   title_cv      optional override if the CV uses a different title
+#   coauthors     list of FULL names ([] = solo). 1 coauthor -> full name on the
+#                 site; 2+ -> surnames. CV always uses full names.
+#   venue         journal/handbook (shown on site for published/forthcoming/rr)
+#   status        published | forthcoming | rr | under_review | working | wip
+#   topics        any of: pk gender pmsc methods
+#   grad / ext    CV co-author flags ( * grad student, dagger external )
+#   jmp           true on the job-market paper
+#   dtag          optional small tag in the card status column (e.g. Database)
+#   abstract      detail text shown under an "Abstract" label
+#   desc          detail text shown with no label (use instead of abstract)
+#   links         list of {label, url}; the first PDF is reused for the CV
+#   awards        list of {text, icon?} shown as chips on the card (icon: award|landmark)
+#   cv            { section: journal|inprogress|other, order: int,
+#                   pages: "...", items: [..], book/editors/publisher/year }
+# ============================================================================
+
+- id: violence_condition
+  title: "Violence as a Condition: Structure, Composition, and the Use of Lethal Force"
+  coauthors: ["Matthew Kyle Ellis"]
+  venue: "Journal of Conflict Resolution"
+  status: published
+  topics: [pmsc]
+  grad: true
+  ext: true
+  abstract: "Since 2014, Russia's Wagner Group has expanded from driving Russian foreign policy across Africa and the Middle East into an integral part of the 2022 invasion of Ukraine. We first draw on the one-sided violence (OSV) literature to show how organizational incentives explain Wagner's violence against civilians pre-November 2021. Despite the static context of those incentives, Wagner's OSV lethality increased dramatically after the invasion. Introducing pre-combat experience (PCE) as an explanatory factor, we provide novel theoretical logic and empirical evidence for how individual-level experience aggregates to unit-level violence."
+  links:
+    - {label: "PDF", url: "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}
+    - {label: "Replication archive", url: "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/2FB6KD"}
+  awards:
+    - {text: "Requested by the U.S. Congressional Research Service for distribution", icon: landmark}
+  cv:
+    section: journal
+    order: 1
+    pages: "OnlineFirst. 1-26."
+    items: ["Requested by United States Congressional Research Service for distribution."]
+
+- id: here_today
+  title: "Here Today, Gone Tomorrow: Dynamics of Peacekeeper Entry and Exit on Violence Against Civilians"
+  coauthors: ["Douglas B. Atkinson", "Rebecca Dudley", "Zach Warner"]
+  venue: "International Political Science Review"
+  status: forthcoming
+  topics: [pk]
+  grad: false
+  ext: true
+  abstract: "Following the 2001 assassination of President Kabila, the UN deployed a peacekeeping mission to the DRC to quell violence against civilians, with mixed results. Using fine-grained subnational data, we examine how the geographic distribution of violence changed before, during, and after peacekeeper deployment, and how withdrawal reshaped local violence and its spread across borders."
+  links:
+    - {label: "Current draft", url: "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}
+    - {label: "Replication archive", url: "https://github.com/skytheacademic/when_peacekeepers_leave"}
+  cv:
+    section: journal
+    order: 2
+    forthcoming_word: "Accepted"
+
+- id: more_than_presence
+  title: "More Than Presence: Gendered Dynamics of Interpreting and Negotiating Trust"
+  coauthors: ["DeAnne Roark", "Hatti Sellers"]
+  venue: "Oxford Handbook of Interpreting UN Peacekeeping"
+  status: forthcoming
+  topics: [gender, pk]
+  grad: false
+  ext: false
+  desc: "A chapter in the <i>Oxford Handbook of Interpreting UN Peacekeeping</i>, edited by Vanessa Newby and Chiara Ruffa (Oxford University Press, forthcoming 2027)."
+  links: []
+  cv:
+    section: other
+    order: 2
+    book: "Oxford Handbook of Interpreting UN Peacekeeping"
+    editors: "Vanessa Newby and Chiara Ruffa"
+    publisher: "Oxford University Press"
+    year: 2027
+
+- id: women_peace
+  title: "Women, Peace, and Participation"
+  coauthors: []
+  venue: "Handbook on Gender and Development, Palgrave Macmillan"
+  status: forthcoming
+  topics: [gender]
+  grad: false
+  ext: false
+  desc: "A chapter in the <i>Handbook on Gender and Development: Critical Engagements with Gender and Social Justice</i>, edited by Rao, Gideon, Theuerkauf, and Philip (Palgrave Macmillan, forthcoming 2027)."
+  links: []
+  cv:
+    section: other
+    order: 1
+    book: "Handbook on Gender and Development: Critical Engagements with Gender and Social Justice"
+    editors: "Nitya Rao, Jasmine Gideon, Ulrike Theuerkauf, Shannon Philip"
+    publisher: "Palgrave Macmillan London"
+    year: 2027
+
+- id: whats_in_a_name
+  title: "What's in a Name? Implications of Overusing 'Sub-Saharan Africa'"
+  coauthors: ["Mitushi Mukherjee"]
+  venue: "International Studies Perspectives"
+  status: rr
+  topics: [methods]
+  grad: true
+  ext: true
+  desc: "Draft available upon request."
+  links: []
+  cv:
+    section: inprogress
+    order: 2
+
+- id: who_keeps
+  title: "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
+  coauthors: []
+  venue: "International Studies Quarterly"
+  status: rr
+  topics: [gender, pk]
+  grad: false
+  ext: false
+  jmp: true
+  abstract: "Why are some peacekeepers more effective than others? Most analyses of peacekeeper effectiveness fail to account for gendered effects, while work on gender in peacekeeping hasn't taken advantage of recent advances in data. By unifying the literature on female peacekeepers and trust, this paper provides the first comprehensive framework explaining how women enhance UN peacekeeper effectiveness. Using two-way fixed-effects models and optimal matching, I provide the first quantitative empirical evidence that including more women in a force can dramatically increase its effectiveness against rebel one-sided violence."
+  links:
+    - {label: "Current draft", url: "https://www.skytheacademic.com/files/who_keeps_the_peace.pdf"}
+    - {label: "Replication archive", url: "https://github.com/skytheacademic/who_keeps_the_peace"}
+  awards:
+    - {text: "ISA Midwest Lynne Rienner Award", icon: award}
+    - {text: "ISA IO Section Finkelstein Prize (Special Mention)", icon: award}
+  cv:
+    section: inprogress
+    order: 1
+    items: ["ISA Midwest Lynne Rienner Award", "ISA IO Section Finkelstein Prize Special Mention"]
+
+- id: all_about_base
+  title: "All About that Base... No Trouble. The Gravity of Peacekeeping Bases"
+  coauthors: []
+  status: working
+  topics: [pk]
+  grad: false
+  ext: false
+  desc: "Current draft and replication materials available below."
+  links:
+    - {label: "Current draft", url: "https://www.skytheacademic.com/files/all_about_that_base.pdf"}
+    - {label: "Replication archive", url: "https://github.com/skytheacademic/all_about_that_base"}
+  cv:
+    section: inprogress
+    order: 4
+
+- id: double_delegation
+  title: "Double Delegation: The UN Private Security Contractor Database"
+  title_cv: "Double Delegation: An Exploration and Construction of the UN Private Security Contractor Database"
+  coauthors: []
+  status: working
+  topics: [pmsc]
+  grad: false
+  ext: false
+  dtag: "Database"
+  abstract: "Principal-agent scholars rarely go past the second level on the delegation chain, especially for delegation from international organizations to private security contractors (PSCs). I argue that delegating authority a second time to PSCs operating outside the direct control of IOs like the UN harms UN authority derived from local actors while increasing state delegation costs. I build the concept of double delegation and assemble a descriptive database of PSC use in UN missions."
+  links:
+    - {label: "Current draft", url: "https://www.skytheacademic.com/files/double_delegation.pdf"}
+  cv:
+    section: inprogress
+    order: 3
+
+- id: beyond_negative
+  title: "Beyond Negative Peace: Do UN Peacekeepers Decrease Security and Trust Concerns?"
+  title_cv: "Beyond Negative Peace: Do UN Peacekeepers decrease security and trust concerns?"
+  coauthors: ["Catalina Vega-Méndez"]
+  status: wip
+  topics: [pk]
+  grad: true
+  ext: true
+  desc: "Available upon request."
+  links: []
+  cv:
+    section: inprogress
+    order: 5
+
+- id: alexander
+  title: "Alexander or Ozymandias? Russia's PMC-Driven Foreign Policy in Africa"
+  title_cv: "Alexander or Ozymandias?: Russia's PMC Driven Foreign Policy in Africa"
+  coauthors: ["Matthew Kyle Ellis"]
+  status: wip
+  topics: [pmsc]
+  grad: true
+  ext: true
+  desc: "Available upon request."
+  links: []
+  cv:
+    section: inprogress
+    order: 6

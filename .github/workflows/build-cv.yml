@@ -1,0 +1,58 @@
+name: Build CV PDF
+
+# On any change to the CV source OR the shared publication data, this workflow:
+#   1. regenerates the CV fragments + Research cards from _data/publications.yml,
+#   2. compiles cv/cv.tex (TeX Live + biber) to a PDF, and
+#   3. commits the regenerated files + files/cv_kunkel.pdf back to the repo.
+# So you never run scripts/build_publications.py by hand: just edit the YAML
+# (or cv.tex) and push.
+
+on:
+  push:
+    paths:
+      - 'cv/**'
+      - '_data/publications.yml'
+      - 'scripts/build_publications.py'
+      - '.github/workflows/build-cv.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate CV fragments + Research cards from _data/publications.yml
+        run: |
+          python -m pip install --quiet pyyaml
+          python scripts/build_publications.py
+
+      - name: Compile CV (LaTeX + biber)
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: cv
+          root_file: cv.tex
+
+      - name: Publish to files/cv_kunkel.pdf
+        run: cp cv/cv.pdf files/cv_kunkel.pdf
+
+      - name: Commit regenerated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _pages/research.md cv/pubs_papers.tex cv/pubs_other.tex cv/cv.tex files/cv_kunkel.pdf
+          if git diff --staged --quiet; then
+            echo "Nothing changed — nothing to commit."
+          else
+            git commit -m "build(cv): regenerate publications + compile CV PDF"
+            git push
+          fi
