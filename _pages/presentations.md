@@ -7,6 +7,7 @@ hero: /images/fiji_3.jpg
 hero_kicker: "Conferences, workshops, and invited talks"
 ---
 
+<!-- BUILD:featured -->
 <h3 class="psec">Featured</h3>
 <div class="feat">
   <article class="featcard">
@@ -21,12 +22,14 @@ hero_kicker: "Conferences, workshops, and invited talks"
     <a class="thumb" href="/files/pssi_2022_poster.pdf" target="_blank" rel="noopener"><img src="/files/pssi_2022_poster.jpg" alt="Peace Science 2022 poster"></a>
     <div class="body">
       <div class="k">Peace Science 2022 &middot; Poster</div>
-      <h4>Violence as a Condition: The CAR and Wagner&rsquo;s Tragic Partnership</h4>
+      <h4>Violence as a Condition: The CAR and Wagner's Tragic Partnership</h4>
       <a class="pdf" href="/files/pssi_2022_poster.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> View poster (PDF)</a>
     </div>
   </article>
 </div>
+<!-- /BUILD:featured -->
 
+<!-- BUILD:invited -->
 <h3 class="psec">Invited talks and workshops</h3>
 <div class="invited">
   <div class="italk"><div class="when">Summer 2026</div><div class="what"><h4>International Policy Summer Institute</h4><div class="host">Bridging the Gap</div></div></div>
@@ -40,7 +43,9 @@ hero_kicker: "Conferences, workshops, and invited talks"
   <div class="italk"><div class="when">21/22/23</div><div class="what"><h4>How to Research and Use the Purdue Libraries: Workshop and Presentation</h4><div class="host">Purdue Political Science Graduate Welcome Week</div><a class="pdf" href="/files/libraries_presentation.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Archived presentation (PDF)</a></div></div>
   <div class="italk"><div class="when">Fall 2022</div><div class="what"><h4>Midwest Workshop in Empirical Political Science</h4></div></div>
 </div>
+<!-- /BUILD:invited -->
 
+<!-- BUILD:conferences -->
 <h3 class="psec">Conference participation</h3>
 <div class="confs">
   <p class="legend"><b>C</b> Chair &middot; <b>D</b> Discussant &middot; <b>O</b> Panel organizer &middot; <b>P</b> Panel participant &middot; <b>R</b> Roundtable &middot; <b>Wo</b> Workshop organizer &middot; <b>Wp</b> Workshop participant</p>
@@ -55,3 +60,4 @@ hero_kicker: "Conferences, workshops, and invited talks"
   <div class="conf"><div class="nm">MapleMeth<small>Maple Methods Meeting</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">EGEN</div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
 </div>
+<!-- /BUILD:conferences -->

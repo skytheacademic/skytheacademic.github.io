@@ -11,6 +11,7 @@ hero_kicker: "Inclusive, methods-focused pedagogy"
 <p>My teaching philosophy centers on the importance of structured, incremental learning and creating an inclusive environment that empowers students from diverse backgrounds. Drawing from my experiences as a queer, first-generation student with a learning disability, I emphasize the value of scaffolding techniques to build students’ confidence and understanding gradually. My approach is also shaped by my practical experience as a teaching assistant and my commitment to innovation, ensuring that all students have the support and opportunities they need to succeed.</p>
 <a class="tstmt-link" href="https://www.skytheacademic.com/files/Teaching_Statement.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Read teaching statement</a>
 
+<!-- BUILD:courses -->
 <h3 class="psec">Courses <span class="psec-note">(<span class="grad-star">*</span> indicates graduate-level teaching)</span></h3>
 <div class="courses">
   <article class="course">
@@ -30,6 +31,7 @@ hero_kicker: "Inclusive, methods-focused pedagogy"
     </ul>
   </article>
 </div>
+<!-- /BUILD:courses -->
 
 <h3 class="psec">Student feedback</h3>
 <div class="feedback">

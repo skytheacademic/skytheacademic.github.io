@@ -1,10 +1,10 @@
 name: Build CV PDF
 
-# On any change to the CV source OR the shared publication data, this workflow:
-#   1. regenerates the CV fragments + Research cards from _data/publications.yml,
+# On any change to the CV source OR the shared content data, this workflow:
+#   1. regenerates the page sections + CV fragments from every _data/*.yml,
 #   2. compiles cv/cv.tex (TeX Live + biber) to a PDF, and
 #   3. commits the regenerated files + files/cv_kunkel.pdf back to the repo.
-# So you never run scripts/build_publications.py by hand: just edit the YAML
+# So you never run scripts/build_from_data.py by hand: just edit the YAML
 # (or cv.tex) and push.
 
 on:
@@ -12,7 +12,10 @@ on:
     paths:
       - 'cv/**'
       - '_data/publications.yml'
-      - 'scripts/build_publications.py'
+      - '_data/presentations.yml'
+      - '_data/teaching.yml'
+      - '_data/briefs.yml'
+      - 'scripts/build_from_data.py'
       - '.github/workflows/build-cv.yml'
   workflow_dispatch:
 
@@ -31,10 +34,10 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Regenerate CV fragments + Research cards from _data/publications.yml
+      - name: Regenerate page sections + CV fragments from _data/*.yml
         run: |
           python -m pip install --quiet pyyaml
-          python scripts/build_publications.py
+          python scripts/build_from_data.py
 
       - name: Compile CV (LaTeX + biber)
         uses: xu-cheng/latex-action@v3
@@ -49,10 +52,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _pages/research.md cv/pubs_papers.tex cv/pubs_other.tex cv/cv.tex files/cv_kunkel.pdf
+          git add _pages/research.md _pages/presentations.md _pages/teaching.md _pages/policy.md \
+                  cv/pubs_papers.tex cv/pubs_other.tex cv/pubs_invited.tex cv/pubs_conferences.tex \
+                  cv/pubs_teaching.tex cv/pubs_briefs.tex cv/cv.tex files/cv_kunkel.pdf
           if git diff --staged --quiet; then
             echo "Nothing changed — nothing to commit."
           else
-            git commit -m "build(cv): regenerate publications + compile CV PDF"
+            git commit -m "build(cv): regenerate pages + CV fragments and compile CV PDF"
             git push
           fi

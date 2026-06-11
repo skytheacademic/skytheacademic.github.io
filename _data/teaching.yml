@@ -1,0 +1,25 @@
+# Single source of truth for the Teaching page "Courses" AND the CV's teaching
+# sections (Instructor of Record, TA - Graduate, TA - Undergraduate).
+# Consumed by scripts/build_from_data.py.
+#
+# Each entry: code (omit for non-POL workshops -> CV only, not on the page),
+#   title, title_cv (optional, if the CV uses a shorter title),
+#   role: instructor | ta,  level: grad | undergrad  (TA only),
+#   when, prof (optional).
+#
+# Website "Courses" shows each unique course once (TA grad courses get a *).
+# The CV lists every instance, grouped by role/level, in the order below.
+# (The CV's Pedagogical Training + Teaching Awards stay hand-written in cv.tex.)
+
+courses:
+  - {code: "POL 237", title: "Modern Weapons and International Relations", role: instructor, when: "Summer 21/22"}
+  - {code: "POL 430", title: "United Nations Peacekeeping", title_cv: "UN Peacekeeping", role: instructor, when: "Summer 2023"}
+  - {code: "POL 605", title: "Advanced Causal Inference", role: ta, level: grad, when: "Spring 2023", prof: "Dr. Tara Grillos"}
+  - {code: "POL 501", title: "Political Science Methodology", role: ta, level: grad, when: "Fall 2022", prof: "Dr. Joan Timoneda"}
+  - {code: "POL 237", title: "Modern Weapons and International Relations", role: ta, level: undergrad, when: "Sp. 20/21/23, Fa. 20/21", prof: "Dr. Keith Shimko"}
+  - {code: "POL 130", title: "Introduction to International Relations", role: ta, level: undergrad, when: "Fall 2022", prof: "Dr. Kyle Haynes"}
+  - {code: "POL 605", title: "Advanced Causal Inference", role: ta, level: grad, when: "Spring 2022", prof: "Dr. Giancarlo Visconti"}
+  - {code: "POL 130", title: "Introduction to International Relations", role: ta, level: undergrad, when: "Spring 2022", prof: "Dr. Reed Kurtz"}
+  - {code: "POL 237", title: "Modern Weapons and International Relations", role: ta, level: undergrad, when: "Summer 2020", prof: "Dr. Toby Lauterbach"}
+  - {code: "POL 237", title: "Modern Weapons and International Relations", role: ta, level: undergrad, when: "Fall 2019", prof: "Clinical Professor Melissa Will"}
+  - {title: "CCSE Video Research Institute", role: ta, level: grad, when: "Summer 2024", prof: "Dr. Bryce J. Dietrich"}

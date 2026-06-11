@@ -1,0 +1,50 @@
+# Single source of truth for the Presentations page AND the CV's
+# "Invited Talks and Workshops" + "Conference Participation" sections.
+# Consumed by scripts/build_from_data.py.  Edit here, then push (the CV Action
+# regenerates everything) — or run the script locally.
+#
+# Order of `invited_talks` and `conferences` below is the order shown on BOTH
+# the website and the CV (newest first for talks; by prominence for conferences).
+
+# --- Featured talks/posters (website only; not in the CV) ---
+featured:
+  - venue: "PolMeth 2022"
+    kind: "Talk"
+    title: "Does Peace Remain After the Peacekeepers Leave? An Exploration of Peacekeeper (In)Effectiveness"
+    image: "/files/polmeth_2022_presentation.jpg"
+    pdf: "/files/polmeth_2022_presentation.pdf"
+    pdf_label: "View slides (PDF)"
+  - venue: "Peace Science 2022"
+    kind: "Poster"
+    title: "Violence as a Condition: The CAR and Wagner's Tragic Partnership"
+    image: "/files/pssi_2022_poster.jpg"
+    pdf: "/files/pssi_2022_poster.pdf"
+    pdf_label: "View poster (PDF)"
+
+# --- Invited talks & workshops (website + CV). `host` and `pdf` optional. ---
+invited_talks:
+  - {when: "Summer 2026", title: "International Policy Summer Institute", host: "Bridging the Gap"}
+  - {when: "24/25/26", title: "Human Rights Measurement Workshop", host: "University of Rhode Island Consortium for Rights Analysis and Measurement"}
+  - {when: "PSS(I) 24/25", title: "Consortium for Human Rights Analysis and Measurement"}
+  - {when: "Fall 2024", title: "Gender and Peace Operations Conference", host: "International Peace Institute"}
+  - {when: "Fall 2024", title: "Online Peace Science Colloquium"}
+  - {when: "ISA 2024", title: "Contractors in Great Power Competition: Challenging World Order in an Age of Privatization"}
+  - {when: "PSS(I) 2023", title: "New Research about Preventing Mass Atrocities", host: "United States Holocaust Memorial Museum"}
+  - {when: "Spring 2023", title: "Junior Scholars in International Security Workshop"}
+  - {when: "21/22/23", title: "How to Research and Use the Purdue Libraries: Workshop and Presentation", host: "Purdue Political Science Graduate Welcome Week", pdf: "/files/libraries_presentation.pdf"}
+  - {when: "Fall 2022", title: "Midwest Workshop in Empirical Political Science"}
+
+# --- Conference participation (website + CV). years: [year, roles]. ---
+# Role codes: C Chair, D Discussant, O Panel organizer, P Panel participant,
+#             R Roundtable, Wo Workshop organizer, Wp Workshop participant
+conferences:
+  - {name: "ISA", full: "International Studies Association", years: [["2022","P"], ["2023","P"], ["2024","O, P, R, Wp"], ["2025","C, O, P"], ["2026","P, Wo"]]}
+  - {name: "APSA", full: "American Political Science Association", years: [["2022","P"], ["2023","D, P"], ["2024","P, C"], ["2025","P"]]}
+  - {name: "Peace Science", full: "Peace Science Society (International)", years: [["2022","P"], ["2023","P, Wp"], ["2024","Wp"], ["2025","P, Wp"]]}
+  - {name: "PolMeth", full: "Society for Political Methodology", years: [["2022","P"], ["2024","P"], ["2025","P"]]}
+  - {name: "MPSA", full: "Midwest Political Science Association", years: [["2023","D, P"]]}
+  - {name: "BISA", full: "British International Studies Association", years: [["2023","P"]]}
+  - {name: "ISA-MW", full: "ISA Midwest", years: [["2023","P"]]}
+  - {name: "ISA Virtual", full: "", years: [["2023","D, P"]]}
+  - {name: "MapleMeth", full: "Maple Methods Meeting", years: [["2023","P"]]}
+  - {name: "EGEN", full: "", years: [["2023","P"]]}

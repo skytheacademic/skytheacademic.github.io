@@ -14,6 +14,7 @@ hero_kicker: "Evidence for reform"
 <div class="fsdots" id="fieldshow-dots"></div>
 <p class="fscap">Fieldwork in Fiji — MOWIP Barrier Assessment with the RFMF, Fiji Police Force, UN Women, and the Elsie Initiative Fund.</p>
 
+<!-- BUILD:briefs -->
 <h3 class="psec">Policy briefs</h3>
 <div class="briefs">
   <article class="brief">
@@ -27,3 +28,4 @@ hero_kicker: "Evidence for reform"
     <a class="brief-link" href="https://static1.squarespace.com/static/61fbe2ea4da6917124d884ea/t/671a6c15624abf60aade2c6a/1729784853715/Policy+Brief_2_The+Transition+Home.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Read the brief</a>
   </article>
 </div>
+<!-- /BUILD:briefs -->
