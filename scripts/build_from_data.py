@@ -151,7 +151,9 @@ def cv_conferences(items):
     for c in items:
         years=", ".join("%s (%s)"%(y,r) for y,r in c["years"])
         out.append("\\begin{datetabular}{6em}\n\\dateentry{%s}{%s}\n\\end{datetabular}"%(c["name"],years))
-    return "\n\n".join(out)+"\n"
+    # Leading blank line forces a \par so the first table doesn't run into the
+    # preceding legend paragraph (the section's \vspace{1em} alone doesn't break it).
+    return "\n"+"\n\n".join(out)+"\n"
 
 # ====================== TEACHING ======================
 def teaching_courses_html(courses):
