@@ -57,7 +57,7 @@ hero_kicker: "Conferences, workshops, and invited talks"
   <div class="conf"><div class="nm">BISA<small>British International Studies Association</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">ISA-MW<small>ISA Midwest</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">ISA Virtual</div><div class="yrs"><span class="yr"><b>2023</b> <i>D, P</i></span></div></div>
-  <div class="conf"><div class="nm">MapleMeth<small>Maple Methods Meeting</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
+  <div class="conf"><div class="nm">MapleMeth</div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">EGEN</div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
 </div>
 <!-- /BUILD:conferences -->
