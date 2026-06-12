@@ -54,7 +54,6 @@ hero_kicker: "Conferences, workshops, and invited talks"
   <div class="conf"><div class="nm">Peace Science<small>Peace Science Society (International)</small></div><div class="yrs"><span class="yr"><b>2022</b> <i>P</i></span><span class="yr"><b>2023</b> <i>P, Wp</i></span><span class="yr"><b>2024</b> <i>Wp</i></span><span class="yr"><b>2025</b> <i>P, Wp</i></span></div></div>
   <div class="conf"><div class="nm">PolMeth<small>Society for Political Methodology</small></div><div class="yrs"><span class="yr"><b>2022</b> <i>P</i></span><span class="yr"><b>2024</b> <i>P</i></span><span class="yr"><b>2025</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">MPSA<small>Midwest Political Science Association</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>D, P</i></span></div></div>
-  <div class="conf"><div class="nm">BISA<small>British International Studies Association</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">ISA-MW<small>ISA Midwest</small></div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
   <div class="conf"><div class="nm">ISA Virtual</div><div class="yrs"><span class="yr"><b>2023</b> <i>D, P</i></span></div></div>
   <div class="conf"><div class="nm">MapleMeth</div><div class="yrs"><span class="yr"><b>2023</b> <i>P</i></span></div></div>
