@@ -1,9 +1,9 @@
 # ============================================================================
 # Single source of truth for publications.
-# Consumed by scripts/build_publications.py, which generates BOTH:
+# Consumed by scripts/build_from_data.py, which generates BOTH:
 #   - the Research page cards  (writes the #grid block in _pages/research.md)
-#   - the CV entry block       (writes cv/publications_auto.tex, \input by cv.tex)
-# Edit here, then run:  python3 scripts/build_publications.py
+#   - the CV entry blocks      (writes cv/pubs_papers.tex and cv/pubs_other.tex, \input by cv.tex)
+# Edit here, then run:  python3 scripts/build_from_data.py
 #
 # Shared facts (title, coauthors, venue, status, topics, links) live here once.
 # Author display strings + LaTeX/HTML are DERIVED by the generator, so the CV

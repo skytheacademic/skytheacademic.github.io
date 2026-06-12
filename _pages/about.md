@@ -19,7 +19,7 @@ redirect_from:
 
 <div class="hl">
   <h3>Selected work</h3>
-  <a class="item" href="{{ '/files/who_keeps_the_peace.pdf' | relative_url }}" target="_blank" rel="noopener"><h4>Who Keeps the Peace? The Gendered Effects of Peacekeeping</h4><span class="v">Job market paper &middot; R&amp;R</span></a>
+  <a class="item" href="{{ '/files/who_keeps_the_peace.pdf' | relative_url }}" target="_blank" rel="noopener"><h4>Who Keeps the Peace? Gendered Effects in UN Peacekeeping</h4><span class="v">Job market paper &middot; R&amp;R</span></a>
   <a class="item" href="{{ '/files/violence_as_a_condition.pdf' | relative_url }}" target="_blank" rel="noopener"><h4>Violence as a Condition: Structure, Composition &amp; the Use of Lethal Force</h4><span class="v">JCR</span></a>
   <a class="item" href="{{ '/files/When_PKs_Leave.pdf' | relative_url }}" target="_blank" rel="noopener"><h4>Here Today, Gone Tomorrow: Peacekeeper Entry &amp; Exit</h4><span class="v">IPSR &middot; Forthcoming</span></a>
   <a class="more" href="{{ '/research/' | relative_url }}">All research &rarr;</a>
