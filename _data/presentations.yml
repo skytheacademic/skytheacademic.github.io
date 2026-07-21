@@ -40,7 +40,7 @@ invited_talks:
 conferences:
   - {name: "ISA", full: "International Studies Association", years: [["2022","P"], ["2023","P"], ["2024","O, P, R, Wp"], ["2025","C, O, P"], ["2026","P, Wo"]]}
   - {name: "APSA", full: "American Political Science Association", years: [["2022","P"], ["2023","D, P"], ["2024","P, C"], ["2025","P"]]}
-  - {name: "Peace Science", full: "Peace Science Society (International)", years: [["2022","P"], ["2023","P, Wp"], ["2024","Wp"], ["2025","P, Wp"]]}
+  - {name: "Peace Science", full: "Peace Science Society (International)", years: [["2022","P"], ["2023","P, Wp"], ["2024","Wp"], ["2025","P, Wp"], ["2026","P"]]}
   - {name: "PolMeth", full: "Society for Political Methodology", years: [["2022","P"], ["2024","P"], ["2025","P"]]}
   - {name: "MPSA", full: "Midwest Political Science Association", years: [["2023","D, P"]]}
   - {name: "BISA", full: "British International Studies Association", years: [["2023","P"]]}
