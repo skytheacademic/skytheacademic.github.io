@@ -46,7 +46,7 @@ hero_kicker: "Nonstate security providers"
     </div>
     <div class="card" data-topic="methods">
       <span class="chev">&#9662;</span>
-      <div class="tags"><div class="topics"><span class="pill methods">Methods</span></div><div class="stat"><span class="stagelbl">R&amp;R</span><div class="track" role="img" aria-label="Stage 3 of 4"><span class="dot on"></span><span class="ln on"></span><span class="dot on"></span><span class="ln on"></span><span class="dot on"></span><span class="ln"></span><span class="dot"></span></div></div></div>
+      <div class="tags"><div class="topics"><span class="pill methods">Methods</span></div><div class="stat"><span class="stagelbl">Conditionally accepted</span><div class="track" role="img" aria-label="Stage 4 of 4"><span class="dot on"></span><span class="ln on"></span><span class="dot on"></span><span class="ln on"></span><span class="dot on"></span><span class="ln on"></span><span class="dot on"></span></div></div></div>
       <h3>What's in a Name? Implications of Overusing 'Sub-Saharan Africa'</h3>
       <div class="meta"><span class="m-auth">with Mitushi Mukherjee</span><span class="m-ven">International Studies Perspectives</span></div><div class="detail"><div class="ab">Draft available upon request.</div></div>
     </div>

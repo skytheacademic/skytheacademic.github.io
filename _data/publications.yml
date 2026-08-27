@@ -16,7 +16,7 @@
 #   coauthors     list of FULL names ([] = solo). 1 coauthor -> full name on the
 #                 site; 2+ -> surnames. CV always uses full names.
 #   venue         journal/handbook (shown on site for published/forthcoming/rr)
-#   status        published | forthcoming | rr | under_review | working | wip
+#   status        published | forthcoming | cond_accept | rr | under_review | working | wip
 #   topics        any of: pk gender pmsc methods
 #   grad / ext    CV co-author flags ( * grad student, dagger external )
 #   jmp           true on the job-market paper
@@ -106,7 +106,7 @@
   title: "What's in a Name? Implications of Overusing 'Sub-Saharan Africa'"
   coauthors: ["Mitushi Mukherjee"]
   venue: "International Studies Perspectives"
-  status: rr
+  status: cond_accept
   topics: [methods]
   grad: true
   ext: true

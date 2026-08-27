@@ -59,6 +59,7 @@ def wire_input(cv, inputname, start_anchor, end_anchor):
 
 # ====================== PUBLICATIONS ======================
 RES_STATUS = {"published":("Published",4),"forthcoming":("Forthcoming",4),"rr":("R&amp;R",3),
+              "cond_accept":("Conditionally accepted",4),
               "under_review":("Under review",2),"working":("Working paper",1),"wip":("Work in progress",1)}
 TOPIC_LABEL = {"pk":"Peacekeeping","gender":"Gender","pmsc":"PMSCs","methods":"Methods"}
 def track(n):
@@ -102,6 +103,7 @@ def pub_cv(e):
         st,venue=e["status"],e.get("venue","")
         if st=="published": stext=("\\textit{%s}. %s"%(venue,cv.get("pages",""))).rstrip()
         elif st=="forthcoming": stext="\\textit{%s, %s}."%(cv.get("forthcoming_word","Forthcoming"),venue)
+        elif st=="cond_accept": stext="\\textit{Conditionally Accepted, %s}."%venue
         elif st=="rr": stext="\\textit{R\\&R, %s}."%venue
         elif st=="under_review": stext="\\textit{Under Review, %s}."%venue
         elif st=="working": stext="\\textit{Working Paper}."
