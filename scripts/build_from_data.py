@@ -17,7 +17,7 @@ import os, yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def P(*a): return os.path.join(ROOT, *a)
-def load(name): return yaml.safe_load(open(P("_data", name)))
+def load(name): return yaml.safe_load(open(P("_data", name), encoding="utf-8"))
 
 # ---------- shared helpers ----------
 def surname(n): return n.split()[-1]
@@ -213,47 +213,47 @@ def main():
     pubs=load("publications.yml"); pres=load("presentations.yml"); teach=load("teaching.yml")["courses"]; briefs=load("briefs.yml")["briefs"]
 
     # --- research.md grid ---
-    rm=open(P("_pages","research.md")).read()
+    rm=open(P("_pages","research.md"), encoding="utf-8").read()
     s=rm.index('<div class="grid" id="grid">'); fig=rm.index('<h3 class="psec">Selected figures</h3>')
     ge=rm.rindex("</div>",s,fig)+len("</div>")
     grid='<div class="grid" id="grid">\n'+"\n".join(pub_card(e) for e in pubs if e.get("show_on_research",True))+"\n</div>"
-    open(P("_pages","research.md"),"w").write(rm[:s]+grid+rm[ge:])
+    open(P("_pages","research.md"),"w", encoding="utf-8").write(rm[:s]+grid+rm[ge:])
 
     # --- presentations.md ---
-    pm=open(P("_pages","presentations.md")).read()
+    pm=open(P("_pages","presentations.md"), encoding="utf-8").read()
     pm=inject(pm,"featured",'<h3 class="psec">Featured</h3>','<h3 class="psec">Invited talks and workshops</h3>',featured_html(pres["featured"]))
     pm=inject(pm,"invited",'<h3 class="psec">Invited talks and workshops</h3>','<h3 class="psec">Conference participation</h3>',invited_html(pres["invited_talks"]))
     pm=inject(pm,"conferences",'<h3 class="psec">Conference participation</h3>',None,conferences_html(pres["conferences"]))
-    open(P("_pages","presentations.md"),"w").write(pm)
+    open(P("_pages","presentations.md"),"w", encoding="utf-8").write(pm)
 
     # --- teaching.md ---
-    tm=open(P("_pages","teaching.md")).read()
+    tm=open(P("_pages","teaching.md"), encoding="utf-8").read()
     tm=inject(tm,"courses",'<h3 class="psec">Courses','<h3 class="psec">Student feedback</h3>',teaching_courses_html(teach))
-    open(P("_pages","teaching.md"),"w").write(tm)
+    open(P("_pages","teaching.md"),"w", encoding="utf-8").write(tm)
 
     # --- policy.md ---
-    po=open(P("_pages","policy.md")).read()
+    po=open(P("_pages","policy.md"), encoding="utf-8").read()
     po=inject(po,"briefs",'<h3 class="psec">Policy briefs</h3>',None,briefs_html(briefs))
-    open(P("_pages","policy.md"),"w").write(po)
+    open(P("_pages","policy.md"),"w", encoding="utf-8").write(po)
 
     # --- CV fragments ---
     def sec(name): return sorted([e for e in pubs if e["cv"]["section"]==name], key=lambda e:e["cv"]["order"])
     papers=("\\subsubsection*{Peer-Reviewed Journal Articles}\n\n"+"\n".join(pub_cv(e) for e in sec("journal"))
             +"\n\\setcounter{inprog}{1} \n\\subsubsection*{\\textit{In-Progress}}\n\n"+"\n".join(pub_cv(e) for e in sec("inprogress")))
-    open(P("cv","pubs_papers.tex"),"w").write(papers+"\n")
-    open(P("cv","pubs_other.tex"),"w").write("\\subsubsection*{\\textit{Other Publications}}\n\\setcounter{inprog}{1} \n\n"+"\n".join(pub_cv(e) for e in sec("other"))+"\n")
-    open(P("cv","pubs_invited.tex"),"w").write(cv_invited(pres["invited_talks"]))
-    open(P("cv","pubs_conferences.tex"),"w").write(cv_conferences(pres["conferences"]))
-    open(P("cv","pubs_teaching.tex"),"w").write(cv_teaching(teach))
-    open(P("cv","pubs_briefs.tex"),"w").write(cv_briefs(briefs))
+    open(P("cv","pubs_papers.tex"),"w", encoding="utf-8").write(papers+"\n")
+    open(P("cv","pubs_other.tex"),"w", encoding="utf-8").write("\\subsubsection*{\\textit{Other Publications}}\n\\setcounter{inprog}{1} \n\n"+"\n".join(pub_cv(e) for e in sec("other"))+"\n")
+    open(P("cv","pubs_invited.tex"),"w", encoding="utf-8").write(cv_invited(pres["invited_talks"]))
+    open(P("cv","pubs_conferences.tex"),"w", encoding="utf-8").write(cv_conferences(pres["conferences"]))
+    open(P("cv","pubs_teaching.tex"),"w", encoding="utf-8").write(cv_teaching(teach))
+    open(P("cv","pubs_briefs.tex"),"w", encoding="utf-8").write(cv_briefs(briefs))
 
     # --- wire cv.tex (idempotent) ---
-    cv=open(P("cv","cv.tex")).read()
+    cv=open(P("cv","cv.tex"), encoding="utf-8").read()
     cv=wire_input(cv,"pubs_invited.tex","\\section{Invited Talks and Workshops}","%%%%%%%%%%%%%%%%%%%%%%%%%%%% Teaching")
     cv=wire_input(cv,"pubs_teaching.tex","\\section{Teaching Experience, Training, and Awards}\n\\vspace{-0.5em}","\\subsubsection*{\\textit{Pedagogical Training}}")
     cv=wire_input(cv,"pubs_conferences.tex","(Wp)=Workshop Participant. %(S)=Section Chair.\n\\vspace{1em}","%%%%%%%%%%%%%%%%%%%%%%%%%%%% Certificates")
     cv=wire_input(cv,"pubs_briefs.tex","\\subsubsection*{\\textit{Non Peer-Reviewed Publications}}\n%%% Need to add this to reset the counter after sections\n\\setcounter{inprog}{1} ","\\input{pubs_other.tex}")
-    open(P("cv","cv.tex"),"w").write(cv)
+    open(P("cv","cv.tex"),"w", encoding="utf-8").write(cv)
 
     print("OK  research:%d  invited:%d  conferences:%d  courses:%d  briefs:%d"
           %(len([e for e in pubs if e.get("show_on_research",True)]), len(pres["invited_talks"]), len(pres["conferences"]), len(teach), len(briefs)))
