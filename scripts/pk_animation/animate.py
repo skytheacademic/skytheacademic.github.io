@@ -21,7 +21,8 @@ Requires: pandas, numpy, geopandas, matplotlib, pillow, imageio-ffmpeg
 Outputs:
     ../../images/pk_violence_tall.mp4        web video
     ../../images/pk_violence_tall.png        poster = final frame
-    output/pk_violence_all_separate_py.gif   the same figure as a GIF (not used by the site)
+The GIF export is commented out (the site uses the MP4). To bring it back,
+uncomment the lines marked GIF and create ./output first.
 """
 
 import glob
@@ -40,7 +41,7 @@ from PIL import Image
 ##### SETTINGS #####
 ACLED_PATH = sorted(glob.glob("./data/acled/*.csv"))[0]
 ACLED_ACCESSED = "26 Aug 2026"            # date the ACLED export was downloaded
-GIF_FILE = "./output/pk_violence_all_separate_py.gif"
+# GIF_FILE = "./output/pk_violence_all_separate_py.gif"  # GIF
 WEB_DIR = "../../images"                  # the site's images folder
 PAGE_BG = "#f7f6f3"                       # the site's --paper color (splitscreen.css)
 FIRST_FRAME = "2000-09"                   # first full 12 months of RADPKO (starts 1999-10)
@@ -295,7 +296,7 @@ def frame_rgb(fig):
 
 
 def render(build, dpi, name="tall", bg=PAGE_BG):
-    """Stream every frame to an MP4 and a GIF."""
+    """Stream every frame to an MP4."""
     with plt.rc_context({"figure.facecolor": bg, "axes.facecolor": bg}):
         fig, draw = build()
     fig.set_dpi(dpi)
@@ -307,53 +308,54 @@ def render(build, dpi, name="tall", bg=PAGE_BG):
         quality=None, output_params=["-crf", "24", "-preset", "slow",
                                      "-movflags", "+faststart"])
     video.send(None)
-    gif_frames = []
+    # gif_frames = []  # GIF
     for k in range(n_frames):
         draw(k)
         rgb = frame_rgb(fig)
         video.send(rgb.tobytes())
-        gif_frames.append(Image.fromarray(rgb).resize(
-            (round(w * 100 / dpi), round(h * 100 / dpi)), Image.LANCZOS))
+        # gif_frames.append(Image.fromarray(rgb).resize(  # GIF
+        #     (round(w * 100 / dpi), round(h * 100 / dpi)), Image.LANCZOS))
     for _ in range(HOLD_SECONDS * FPS):       # hold on the last frame
         video.send(rgb.tobytes())
     video.close()
     Image.fromarray(rgb).save(f"{WEB_DIR}/pk_violence_{name}.png", optimize=True)
     plt.close(fig)
-    write_gif(gif_frames, GIF_FILE, bg)
+    # write_gif(gif_frames, GIF_FILE, bg)  # GIF
     print(f"wrote pk_violence_{name} ({w}x{h})")
 
 
-def write_gif(frames, path, bg):
-    # one shared palette (built from a sample of frames) so colors don't flicker
-    sample = frames[::max(1, len(frames) // 12)]
-    mosaic = Image.new("RGB", (frames[0].width, frames[0].height * len(sample)))
-    for j, im in enumerate(sample):
-        mosaic.paste(im, (0, j * frames[0].height))
-    palette = mosaic.quantize(colors=255, method=Image.Quantize.MEDIANCUT)
-    idx = [np.asarray(im.quantize(palette=palette, dither=Image.Dither.NONE))
-           for im in frames]
-
-    # frames after the first only store changed pixels; the rest are marked
-    # transparent (index 255) so the previous frame shows through
-    CLEAR = 255
-    pal = palette.getpalette()[:255 * 3]
-    # median cut averages the background into a slightly different color;
-    # snap entries within a few levels of it back to the exact background
-    bg_rgb = np.array(matplotlib.colors.to_rgb(bg)) * 255
-    rgb = np.array(pal).reshape(-1, 3)
-    rgb[(np.abs(rgb - bg_rgb) <= 4).all(axis=1)] = bg_rgb.round().astype(int)
-    pal = rgb.ravel().tolist() + [255, 255, 255]
-    gif = []
-    for j, cur in enumerate(idx):
-        out = cur if j == 0 else np.where(cur == idx[j - 1], CLEAR, cur).astype(np.uint8)
-        im = Image.fromarray(out, mode="P")
-        im.putpalette(pal)
-        gif.append(im)
-
-    delay = round(1000 / FPS)
-    durations = [delay] * (len(gif) - 1) + [delay + HOLD_SECONDS * 1000]
-    gif[0].save(path, save_all=True, append_images=gif[1:], duration=durations,
-                loop=0, optimize=False, disposal=1, transparency=CLEAR)
+# GIF
+# def write_gif(frames, path, bg):
+#     # one shared palette (built from a sample of frames) so colors don't flicker
+#     sample = frames[::max(1, len(frames) // 12)]
+#     mosaic = Image.new("RGB", (frames[0].width, frames[0].height * len(sample)))
+#     for j, im in enumerate(sample):
+#         mosaic.paste(im, (0, j * frames[0].height))
+#     palette = mosaic.quantize(colors=255, method=Image.Quantize.MEDIANCUT)
+#     idx = [np.asarray(im.quantize(palette=palette, dither=Image.Dither.NONE))
+#            for im in frames]
+#
+#     # frames after the first only store changed pixels; the rest are marked
+#     # transparent (index 255) so the previous frame shows through
+#     CLEAR = 255
+#     pal = palette.getpalette()[:255 * 3]
+#     # median cut averages the background into a slightly different color;
+#     # snap entries within a few levels of it back to the exact background
+#     bg_rgb = np.array(matplotlib.colors.to_rgb(bg)) * 255
+#     rgb = np.array(pal).reshape(-1, 3)
+#     rgb[(np.abs(rgb - bg_rgb) <= 4).all(axis=1)] = bg_rgb.round().astype(int)
+#     pal = rgb.ravel().tolist() + [255, 255, 255]
+#     gif = []
+#     for j, cur in enumerate(idx):
+#         out = cur if j == 0 else np.where(cur == idx[j - 1], CLEAR, cur).astype(np.uint8)
+#         im = Image.fromarray(out, mode="P")
+#         im.putpalette(pal)
+#         gif.append(im)
+#
+#     delay = round(1000 / FPS)
+#     durations = [delay] * (len(gif) - 1) + [delay + HOLD_SECONDS * 1000]
+#     gif[0].save(path, save_all=True, append_images=gif[1:], duration=durations,
+#                 loop=0, optimize=False, disposal=1, transparency=CLEAR)
 
 
 if __name__ == "__main__":
