@@ -11,3 +11,10 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+# Raw data for scripts/pk_animation. ACLED's license bars redistributing the
+# event data; RADPKO, PRIO-GRID and GADM shapefiles are large and kept local.
+scripts/pk_animation/data/acled/
+scripts/pk_animation/data/radpko/
+scripts/pk_animation/data/prio/
+scripts/pk_animation/data/gadm/
+scripts/pk_animation/output/

@@ -1,0 +1,14 @@
+{% comment %}
+  Animated map of UN peacekeepers and violence in Africa, 2000-2017, drawn on
+  the page color. Rendered by scripts/pk_animation/animate.py.
+{% endcomment %}
+<figure class="pkviz">
+  <div class="pkviz-frame">
+    <video src="{{ '/images/pk_violence_tall.mp4' | relative_url }}"
+           poster="{{ '/images/pk_violence_tall.png' | relative_url }}"
+           width="1200" height="1440" autoplay muted loop playsinline data-motion
+           aria-label="Animated map of Africa, one frame per month from 2000 to 2017. Red circles show fatalities recorded by ACLED over the previous 12 months; blue circles show UN peacekeepers deployed. Peacekeepers concentrate in West Africa in the early 2000s, then shift to Darfur, the eastern DRC, South Sudan, the Central African Republic, and Mali, while violence grows around Lake Chad and in Somalia."></video>
+    <button class="pkviz-toggle" type="button" hidden>Pause</button>
+  </div>
+  <figcaption>UN peacekeepers and violence in Africa, 2000&ndash;2017. Each frame covers the preceding 12 months of <a href="https://acleddata.com" target="_blank" rel="noopener">ACLED</a> fatalities and RADPKO deployments. From <a href="{{ '/files/When_PKs_Leave.pdf' | relative_url }}" target="_blank" rel="noopener"><i>Here Today, Gone Tomorrow</i></a>.</figcaption>
+</figure>

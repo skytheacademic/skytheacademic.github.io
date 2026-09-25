@@ -1,0 +1,6 @@
+pandas
+numpy
+geopandas
+matplotlib
+pillow
+imageio-ffmpeg

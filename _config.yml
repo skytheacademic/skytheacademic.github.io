@@ -148,6 +148,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - scripts/pk_animation
 keep_files:
   - .git
   - .svn

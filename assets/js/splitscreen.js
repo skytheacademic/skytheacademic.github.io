@@ -88,4 +88,17 @@
       set(0); play();
     });
   })();
+
+  (function motion(){
+    // looping videos: honor reduced motion (show the poster) and add a
+    // pause/play button where the markup provides one
+    [].slice.call(document.querySelectorAll('video[data-motion]')).forEach(function(v){
+      if(prefersReduced){ v.removeAttribute('autoplay'); v.autoplay=false; v.load(); }
+      var btn=v.parentNode.querySelector('.pkviz-toggle'); if(!btn) return;
+      function label(){ var p=v.paused; btn.textContent=p?'Play':'Pause'; btn.setAttribute('aria-label',(p?'Play':'Pause')+' animation'); }
+      btn.hidden=false;
+      btn.addEventListener('click',function(){ if(v.paused){ v.play(); } else { v.pause(); } });
+      v.addEventListener('play',label); v.addEventListener('pause',label); label();
+    });
+  })();
 })();

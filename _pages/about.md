@@ -24,3 +24,5 @@ redirect_from:
   <a class="item" href="{{ '/files/When_PKs_Leave.pdf' | relative_url }}" target="_blank" rel="noopener"><h4>Here Today, Gone Tomorrow: Peacekeeper Entry &amp; Exit</h4><span class="v">IPSR &middot; Forthcoming</span></a>
   <a class="more" href="{{ '/research/' | relative_url }}">All research &rarr;</a>
 </div>
+
+{% include pk-animation.html %}
