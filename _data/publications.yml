@@ -106,15 +106,16 @@
   title: "What's in a Name? Implications of Overusing 'Sub-Saharan Africa'"
   coauthors: ["Mitushi Mukherjee"]
   venue: "International Studies Perspectives"
-  status: cond_accept
+  status: forthcoming
   topics: [methods]
   grad: true
   ext: true
   desc: "Draft available upon request."
   links: []
   cv:
-    section: inprogress
-    order: 2
+    section: journal
+    order: 3
+    forthcoming_word: "Accepted"
 
 - id: who_keeps
   title: "Who Keeps the Peace? Gendered Effects in UN Peacekeeping"
