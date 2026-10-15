@@ -40,13 +40,14 @@
   abstract: "Since 2014, Russia's Wagner Group has expanded from driving Russian foreign policy across Africa and the Middle East into an integral part of the 2022 invasion of Ukraine. We first draw on the one-sided violence (OSV) literature to show how organizational incentives explain Wagner's violence against civilians pre-November 2021. Despite the static context of those incentives, Wagner's OSV lethality increased dramatically after the invasion. Introducing pre-combat experience (PCE) as an explanatory factor, we provide novel theoretical logic and empirical evidence for how individual-level experience aggregates to unit-level violence."
   links:
     - {label: "PDF", url: "https://www.skytheacademic.com/files/violence_as_a_condition.pdf"}
+    - {label: "Article (DOI)", url: "https://doi.org/10.1177/00220027261431829"}
     - {label: "Replication archive", url: "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/2FB6KD"}
   awards:
     - {text: "Requested by the U.S. Congressional Research Service for distribution", icon: landmark}
   cv:
     section: journal
     order: 1
-    pages: "OnlineFirst. 1-26."
+    pages: "70(10): 1900-1925."
     items: ["Requested by United States Congressional Research Service for distribution."]
 
 - id: here_today
