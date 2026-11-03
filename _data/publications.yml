@@ -54,18 +54,19 @@
   title: "Here Today, Gone Tomorrow: Dynamics of Peacekeeper Entry and Exit on Violence Against Civilians"
   coauthors: ["Douglas B. Atkinson", "Rebecca Dudley", "Zach Warner"]
   venue: "International Political Science Review"
-  status: forthcoming
+  status: published
   topics: [pk]
   grad: false
   ext: true
-  abstract: "Following the 2001 assassination of President Kabila, the UN deployed a peacekeeping mission to the DRC to quell violence against civilians, with mixed results. Using fine-grained subnational data, we examine how the geographic distribution of violence changed before, during, and after peacekeeper deployment, and how withdrawal reshaped local violence and its spread across borders."
+  abstract: "Peacekeeping operations (PKOs) have consistently been shown to reduce violent conflict. However, more recent work has begun to disaggregate these impacts. How do the entrance and exit of peacekeepers affect rebel and government violence against civilians? We argue that PKOs have divergent impacts on rebel and government violence based on their ability to diminish operational and organizational capacity. This paper uses fine-grained geolocated data on PKO deployment across all of Africa from 2000 to 2017 to examine the impact of PKOs on rebel and government violence. By leveraging a difference-in-differences approach with 2.3 million observations, we account for unobserved confounders and more closely approximate the effect of PKOs on violence. We find that peacekeepers increase local state violence and displace it, while likely diminishing rebel capacity and rebel violence against civilians. Taken together, our results suggest that scholars and policymakers should carefully consider how and when PKOs can effectively protect civilians."
   links:
-    - {label: "Current draft", url: "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}
+    - {label: "PDF", url: "https://www.skytheacademic.com/files/When_PKs_Leave.pdf"}
+    - {label: "Article (DOI)", url: "https://doi.org/10.1177/01925121261492253"}
     - {label: "Replication archive", url: "https://github.com/skytheacademic/when_peacekeepers_leave"}
   cv:
     section: journal
     order: 2
-    forthcoming_word: "Accepted"
+    pages: "Online first."
 
 - id: more_than_presence
   title: "More Than Presence: Gendered Dynamics of Interpreting and Negotiating Trust"
